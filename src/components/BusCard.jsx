@@ -1,7 +1,37 @@
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import PropTypes from 'prop-types';
+import { useEffect, useRef } from 'react';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 const BusCard = ({ busNumber, operatorName, imageUrl }) => {
+    const mapRef = useRef(null);
+    const mapContainerRef = useRef(null);
+
+    useEffect(() => {
+        // Initialize map if it hasn't been initialized yet
+        if (!mapRef.current && mapContainerRef.current) {
+            mapRef.current = L.map(mapContainerRef.current).setView([51.5074, -0.1278], 13);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mapRef.current);
+
+            // Force a resize after map is created to ensure it fills container
+            setTimeout(() => {
+                mapRef.current.invalidateSize();
+            }, 100);
+        }
+
+        // Cleanup function to run when component unmounts
+        return () => {
+            if (mapRef.current) {
+                mapRef.current.remove();
+                mapRef.current = null;
+            }
+        };
+    }, []);
+
     return (
         <Card sx={{ maxWidth: 345, m: 2 }}>
             <CardMedia
@@ -17,6 +47,16 @@ const BusCard = ({ busNumber, operatorName, imageUrl }) => {
                 <Typography variant="body2" color="text.secondary">
                     {operatorName}
                 </Typography>
+                <div
+                    ref={mapContainerRef}
+                    style={{
+                        height: 200,
+                        width: '100%',
+                        marginTop: 16,
+                        borderRadius: '4px',
+                        zIndex: 0
+                    }}
+                />
             </CardContent>
         </Card>
     );
