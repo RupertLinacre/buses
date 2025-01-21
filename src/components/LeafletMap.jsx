@@ -52,8 +52,8 @@ const LeafletMap = () => {
         if (!mapRef.current) {
             mapRef.current = L.map(mapContainerRef.current).setView([51.5074, -0.1278], 10);
 
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
             }).addTo(mapRef.current);
 
             const allCoordinates = [];
@@ -83,7 +83,15 @@ const LeafletMap = () => {
                         L.marker(routeSegments[0][0], {
                             icon: L.divIcon({
                                 className: 'bus-label',
-                                html: `<div style="background-color: ${color}; color: white; padding: 5px; border-radius: 3px;">${bus.bus_number}</div>`,
+                                html: `<div style="
+                                    background-color: ${color};
+                                    color: white;
+                                    padding: 5px 8px;
+                                    border-radius: 3px;
+                                    white-space: nowrap;
+                                    display: inline-block;
+                                    font-size: 14px;
+                                ">${bus.bus_number}</div>`,
                             })
                         }).addTo(mapRef.current);
                     }
