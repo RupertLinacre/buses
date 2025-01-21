@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Button } from '@mui/material';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import BusCard from './components/BusCard';
 import Maps from './pages/Maps';
@@ -21,7 +21,14 @@ function App() {
             <Routes>
                 <Route path="/" element={
                     <Container maxWidth="lg" sx={{ py: 4 }}>
-                        <Link to="/maps">Go to Maps</Link>
+                        <Button
+                            component={Link}
+                            to="/maps"
+                            variant="contained"
+                            sx={{ mb: 3 }}
+                        >
+                            Go to Big Map
+                        </Button>
                         <Grid container spacing={3}>
                             {buses.map((bus) => (
                                 <Grid item xs={12} sm={6} md={4} key={bus.bus_number}>
