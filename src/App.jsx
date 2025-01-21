@@ -17,7 +17,7 @@ function App() {
     }, []);
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/vite_bus">
             <Routes>
                 <Route path="/" element={
                     <Container maxWidth="lg" sx={{ py: 4 }}>

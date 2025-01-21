@@ -83,7 +83,7 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route }) => {
             <CardMedia
                 component="img"
                 height="240"
-                image={imageUrl}
+                image={`${import.meta.env.BASE_URL}${imageUrl}`}
                 alt={`Bus ${busNumber}`}
             />
             <CardContent>
