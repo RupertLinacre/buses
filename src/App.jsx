@@ -11,7 +11,8 @@ function App() {
     useEffect(() => {
         setBuses(routesData.map(bus => ({
             ...bus,
-            imageUrl: `/images/${bus.bus_number}.png`
+            imageUrl: `/images/${bus.bus_number}.jpg`,
+            route: bus.multilinestring
         })));
     }, []);
 
@@ -28,6 +29,7 @@ function App() {
                                         busNumber={bus.bus_number}
                                         operatorName={bus.operator_name}
                                         imageUrl={bus.imageUrl}
+                                        route={bus.route}
                                     />
                                 </Grid>
                             ))}
