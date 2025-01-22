@@ -76,3 +76,68 @@ html, body, #root {
   margin: 0;
   padding: 0;
 }
+
+.fun-header {
+  position: relative;
+  cursor: pointer;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text 5s linear infinite, bounce 0.5s ease-in-out infinite alternate;
+}
+
+.star {
+  position: absolute;
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(45deg, gold, yellow);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: star-fall 0.75s ease-out forwards;
+  z-index: 1000;
+}
+
+@keyframes rainbow-text {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes star-fall {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.3);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) rotate(360deg) scale(1);
+    opacity: 0;
+  }
+}

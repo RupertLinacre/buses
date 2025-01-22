@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Container, Grid, Button } from '@mui/material';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { AnimatedHeader } from './components/AnimatedHeader';
 import BusCard from './components/BusCard';
 import Maps from './pages/Maps';
 import routesData from './assets/routes.json';
@@ -21,6 +22,10 @@ function App() {
             <Routes>
                 <Route path="/" element={
                     <Container maxWidth="lg" sx={{ py: 4 }}>
+                        <AnimatedHeader>
+                            RUPERT&apos;S BEST BUS WEBSITE EVER!
+                        </AnimatedHeader>
+
                         <Button
                             component={Link}
                             to="/maps"
