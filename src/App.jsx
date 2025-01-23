@@ -10,15 +10,25 @@ function App() {
     const [buses, setBuses] = useState([]);
 
     useEffect(() => {
+        // Get all images from the public/images directory at build time
+        const busImages = import.meta.glob('/public/images/*.jpg', { eager: true });
+
+        console.log('Available images:', Object.keys(busImages));
+
         const mappedBuses = routesData.map(bus => {
-            console.log('Bus geom:', bus.geom); // Debug log
+            const imagePath = `/images/${bus.bus_number}.jpg`;
+            // Check if the image exists in our glob
+            const hasImage = Object.keys(busImages).some(path =>
+                path.includes(`${bus.bus_number}.jpg`)
+            );
+
             return {
                 ...bus,
-                imageUrl: `/images/${bus.bus_number}.jpg`,
+                imageUrl: hasImage ? imagePath : null,
                 route: bus.geom
             };
         });
-        console.log('First mapped bus:', mappedBuses[0]); // Debug log
+
         setBuses(mappedBuses);
     }, []);
 

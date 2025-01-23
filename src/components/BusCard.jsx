@@ -60,12 +60,14 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route }) => {
 
     return (
         <Card sx={{ maxWidth: 345, m: 2 }}>
-            <CardMedia
-                component="img"
-                height="240"
-                image={`${import.meta.env.BASE_URL}${imageUrl}`}
-                alt={`Bus ${busNumber}`}
-            />
+            {imageUrl && (
+                <CardMedia
+                    component="img"
+                    height="240"
+                    image={`${import.meta.env.BASE_URL}${imageUrl}`}
+                    alt={`Bus ${busNumber}`}
+                />
+            )}
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                     Bus {busNumber}
@@ -91,7 +93,7 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route }) => {
 BusCard.propTypes = {
     busNumber: PropTypes.string.isRequired,
     operatorName: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string,
     route: PropTypes.shape({
         type: PropTypes.string,
         features: PropTypes.arrayOf(
