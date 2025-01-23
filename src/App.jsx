@@ -28,7 +28,14 @@ function App() {
             };
         });
 
-        setBuses(mappedBuses);
+        // Sort buses - ones with images come first
+        const sortedBuses = mappedBuses.sort((a, b) => {
+            if (a.imageUrl && !b.imageUrl) return -1;
+            if (!a.imageUrl && b.imageUrl) return 1;
+            return 0;
+        });
+
+        setBuses(sortedBuses);
     }, []);
 
     return (
