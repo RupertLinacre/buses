@@ -7,48 +7,16 @@ const LeafletMap = () => {
     const mapRef = useRef(null);
     const mapContainerRef = useRef(null);
 
-    const parseMultiLineString = (multiLineString) => {
-        try {
-            if (!multiLineString) return [];
-
-            const coordsString = multiLineString
-                .replace('MULTILINESTRING ((', '')
-                .replace('))', '');
-
-            // Split into multiple line strings and process each one
-            return coordsString.split('),  (').map(lineString => {
-                return lineString.split(',').map(coord => {
-                    const [lng, lat] = coord.trim().split(' ');
-                    return [parseFloat(lat), parseFloat(lng)];
-                }).filter(coord => !isNaN(coord[0]) && !isNaN(coord[1]));
-            });
-        } catch (error) {
-            console.error('Error parsing route:', error);
-            return [];
-        }
-    };
-
     // Function to generate distinct colors for each route
     const getRouteColor = (index) => {
         const colors = [
-            '#FF0000', // Red
-            '#00FF00', // Green
-            '#0000FF', // Blue
-            '#FFA500', // Orange
-            '#800080', // Purple
-            '#00FFFF', // Cyan
-            '#FF00FF', // Magenta
-            '#008000', // Dark Green
-            '#000080', // Navy
-            '#800000', // Maroon
-            '#808000', // Olive
-            '#008080', // Teal
+            '#FF0000', '#00FF00', '#0000FF', '#FFA500', '#800080', '#00FFFF',
+            '#FF00FF', '#008000', '#000080', '#800000', '#808000', '#008080',
         ];
         return colors[index % colors.length];
     };
 
     useEffect(() => {
-        // Initialize map if it hasn't been initialized yet
         if (!mapRef.current) {
             mapRef.current = L.map(mapContainerRef.current).setView([51.5074, -0.1278], 10);
 
@@ -56,55 +24,57 @@ const LeafletMap = () => {
                 attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
             }).addTo(mapRef.current);
 
-            const allCoordinates = [];
-
             // Plot each bus route
             routesData.forEach((bus, index) => {
-                const routeSegments = parseMultiLineString(bus.multilinestring);
-                const color = getRouteColor(index);
+                try {
+                    if (bus.geom && bus.geom.features && bus.geom.features[0]?.geometry) {
+                        const color = getRouteColor(index);
 
-                if (routeSegments.length > 0) {
-                    // Add each route segment as a separate polyline
-                    routeSegments.forEach(coordinates => {
-                        if (coordinates.length > 0) {
-                            L.polyline(coordinates, {
+                        // Create a GeoJSON layer for the route
+                        L.geoJSON(bus.geom, {
+                            style: {
                                 color: color,
                                 weight: 3,
                                 opacity: 0.7
-                            }).addTo(mapRef.current);
-
-                            // Collect all coordinates for bounds calculation
-                            allCoordinates.push(...coordinates);
-                        }
-                    });
-
-                    // Add a label for the bus number at the first coordinate of the first segment
-                    if (routeSegments[0].length > 0) {
-                        L.marker(routeSegments[0][0], {
-                            icon: L.divIcon({
-                                className: 'bus-label',
-                                html: `<div style="
-                                    background-color: ${color};
-                                    color: white;
-                                    padding: 5px 8px;
-                                    border-radius: 3px;
-                                    white-space: nowrap;
-                                    display: inline-block;
-                                    font-size: 14px;
-                                ">${bus.bus_number}</div>`,
-                            })
+                            }
                         }).addTo(mapRef.current);
+
+                        // Add a label for the bus number at the first coordinate
+                        const firstFeature = bus.geom.features[0];
+                        if (firstFeature.geometry.coordinates && firstFeature.geometry.coordinates[0]) {
+                            const coords = firstFeature.geometry.coordinates[0];
+                            // For Point, use coords directly. For LineString/Polygon, use first point
+                            const [lng, lat] = Array.isArray(coords[0]) ? coords[0] : coords;
+
+                            L.marker([lat, lng], {
+                                icon: L.divIcon({
+                                    className: 'bus-label',
+                                    html: `<div style="
+                                        background-color: ${color};
+                                        color: white;
+                                        padding: 5px 8px;
+                                        border-radius: 3px;
+                                        white-space: nowrap;
+                                        display: inline-block;
+                                        font-size: 14px;
+                                    ">${bus.bus_number}</div>`,
+                                })
+                            }).addTo(mapRef.current);
+                        }
                     }
+                } catch (error) {
+                    console.error(`Error handling route for bus ${bus.bus_number}:`, error);
                 }
             });
 
-            // Fit the map bounds to show all segments if there are coordinates
-            if (allCoordinates.length > 0) {
-                mapRef.current.fitBounds(allCoordinates, { padding: [50, 50] });
+            // Fit bounds to show all routes
+            const allLayers = L.geoJSON(routesData.map(bus => bus.geom));
+            const bounds = allLayers.getBounds();
+            if (bounds.isValid()) {
+                mapRef.current.fitBounds(bounds, { padding: [50, 50] });
             }
         }
 
-        // Cleanup function to run when component unmounts
         return () => {
             if (mapRef.current) {
                 mapRef.current.remove();

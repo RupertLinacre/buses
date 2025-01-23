@@ -10,11 +10,16 @@ function App() {
     const [buses, setBuses] = useState([]);
 
     useEffect(() => {
-        setBuses(routesData.map(bus => ({
-            ...bus,
-            imageUrl: `/images/${bus.bus_number}.jpg`,
-            route: bus.multilinestring
-        })));
+        const mappedBuses = routesData.map(bus => {
+            console.log('Bus geom:', bus.geom); // Debug log
+            return {
+                ...bus,
+                imageUrl: `/images/${bus.bus_number}.jpg`,
+                route: bus.geom
+            };
+        });
+        console.log('First mapped bus:', mappedBuses[0]); // Debug log
+        setBuses(mappedBuses);
     }, []);
 
     return (
