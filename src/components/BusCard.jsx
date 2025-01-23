@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const BusCard = ({ busNumber, operatorName, imageUrl, route }) => {
+const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId }) => {
     const mapRef = useRef(null);
     const mapContainerRef = useRef(null);
 
@@ -65,7 +65,7 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route }) => {
                     component="img"
                     height="240"
                     image={`${import.meta.env.BASE_URL}${imageUrl}`}
-                    alt={`Bus ${busNumber}`}
+                    alt={`Bus ${busNumber} (Dataset ${datasetId})`}
                 />
             )}
             <CardContent>
@@ -73,7 +73,7 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route }) => {
                     Bus {busNumber}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    {operatorName}
+                    {operatorName} (Dataset {datasetId})
                 </Typography>
                 <div
                     ref={mapContainerRef}
@@ -103,6 +103,7 @@ BusCard.propTypes = {
             })
         )
     }).isRequired,
+    datasetId: PropTypes.string.isRequired,
 };
 
 export default BusCard;

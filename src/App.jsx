@@ -13,18 +13,17 @@ function App() {
         // Get all images from the public/images directory at build time
         const busImages = import.meta.glob('/public/images/*.jpg', { eager: true });
 
-        console.log('Available images:', Object.keys(busImages));
-
         const mappedBuses = routesData.map(bus => {
             const imagePath = `/images/${bus.bus_number}.jpg`;
-            // Check if the image exists in our glob
-            const hasImage = Object.keys(busImages).some(path =>
-                path.includes(`${bus.bus_number}.jpg`)
-            );
+            // Get the full public path that would match our image
+            const fullImagePath = `/public/images/${bus.bus_number}.jpg`;
+
+            // Only set imageUrl if we explicitly find the image in our glob
+            const imageUrl = Object.keys(busImages).includes(fullImagePath) ? imagePath : null;
 
             return {
                 ...bus,
-                imageUrl: hasImage ? imagePath : null,
+                imageUrl,
                 route: bus.geom
             };
         });
@@ -51,12 +50,13 @@ function App() {
                         </Button>
                         <Grid container spacing={3}>
                             {buses.map((bus) => (
-                                <Grid item xs={12} sm={6} md={4} key={bus.bus_number}>
+                                <Grid item xs={12} sm={6} md={4} key={`${bus.dataset_id}-${bus.bus_number}`}>
                                     <BusCard
                                         busNumber={bus.bus_number}
                                         operatorName={bus.operator_name}
                                         imageUrl={bus.imageUrl}
                                         route={bus.route}
+                                        datasetId={bus.dataset_id}
                                     />
                                 </Grid>
                             ))}
