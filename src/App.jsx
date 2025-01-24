@@ -27,27 +27,29 @@ function App() {
             };
         });
 
-        // Sort buses - ones with images come first
-        const sortedBuses = mappedBuses.sort((a, b) => {
-            if (a.imageUrl && !b.imageUrl) return -1;
-            if (!a.imageUrl && b.imageUrl) return 1;
-            return 0;
-        });
+        // Separate buses with and without images
+        const busesWithImages = mappedBuses.filter(bus => bus.imageUrl);
+        const busesWithoutImages = mappedBuses.filter(bus => !bus.imageUrl);
 
-        setBuses(sortedBuses);
+        // Take only first 20 buses without images
+        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 20);
+
+        // Combine and set the buses
+        setBuses([...busesWithImages, ...limitedBusesWithoutImages]);
     }, []);
 
     return (
         <BrowserRouter basename="/vite_bus">
-            <div className="relative min-h-screen py-5 w-screen overflow-hidden">
-                <div className="fixed inset-0 w-screen h-screen bg-repeat filter grayscale-90 brightness-110 -z-10"
-                    style={{
-                        backgroundImage: 'url(./images/background.jpg)',
-                        backgroundSize: '400px'
-                    }}>
-                </div>
-                <Routes>
-                    <Route path="/" element={
+            <Routes>
+                <Route path="/maps" element={<Maps />} />
+                <Route path="/" element={
+                    <div className="relative min-h-screen py-5 w-screen overflow-hidden">
+                        <div className="fixed inset-0 w-screen h-screen bg-repeat filter grayscale-90 brightness-110 -z-10"
+                            style={{
+                                backgroundImage: 'url(./images/background.jpg)',
+                                backgroundSize: '400px'
+                            }}>
+                        </div>
                         <div className="max-w-7xl mx-auto py-4 bg-white/90 rounded-lg px-5">
                             <AnimatedHeader>
                                 RUPERT&apos;S BEST BUS WEBSITE EVER!
@@ -73,10 +75,9 @@ function App() {
                                 ))}
                             </div>
                         </div>
-                    } />
-                    <Route path="/maps" element={<Maps />} />
-                </Routes>
-            </div>
+                    </div>
+                } />
+            </Routes>
         </BrowserRouter>
     );
 }
