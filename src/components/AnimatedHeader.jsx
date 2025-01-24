@@ -2,18 +2,23 @@ import { useStarExplosion } from '../hooks/useStarExplosion';
 
 export const AnimatedHeader = ({ children, className = '', ...props }) => {
     const createStarExplosion = useStarExplosion();
+    const letters = children.split('');
 
     return (
         <h1
-            className={`fun-header text-4xl md:text-5xl font-extrabold text-center
-                py-4 text-blue-600 hover:text-blue-700 transition-colors
-                cursor-pointer select-none tracking-wide
-                drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)]
-                ${className}`.trim()}
+            className="fun-header text-center py-4 cursor-pointer text-5xl"
             onClick={createStarExplosion}
             {...props}
         >
-            {children}
+            {letters.map((letter, index) => (
+                <span key={index} className="letter-wrapper inline-block" style={{
+                    animation: 'wave-bounce 1s infinite',
+                    animationDelay: `${index * 0.1}s`
+                }}>
+                    <span className="letter-outline">{letter === ' ' ? '\u00A0' : letter}</span>
+                    <span className="letter-fill rainbow-text">{letter === ' ' ? '\u00A0' : letter}</span>
+                </span>
+            ))}
         </h1>
     );
 };
