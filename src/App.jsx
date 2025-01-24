@@ -11,12 +11,12 @@ function App() {
 
     useEffect(() => {
         // Get all images from the public/images directory at build time
-        const busImages = import.meta.glob('/public/images/*.jpg', { eager: true });
+        const busImages = import.meta.glob('/public/images/**/*.jpg', { eager: true });
 
         const mappedBuses = routesData.map(bus => {
-            const imagePath = `/images/${bus.bus_number}.jpg`;
+            const imagePath = `/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
             // Get the full public path that would match our image
-            const fullImagePath = `/public/images/${bus.bus_number}.jpg`;
+            const fullImagePath = `/public/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
 
             // Only set imageUrl if we explicitly find the image in our glob
             const imageUrl = Object.keys(busImages).includes(fullImagePath) ? imagePath : null;
