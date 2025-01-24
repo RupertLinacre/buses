@@ -2,36 +2,36 @@ import { useCallback } from 'react';
 
 export const useStarExplosion = () => {
     const createStarExplosion = useCallback((event) => {
-        const element = event.target;
-        const rect = element.getBoundingClientRect();
-        const centerX = rect.left + rect.width / 2;
-        const centerY = rect.top + rect.height / 2;
+        const clickX = event.clientX;
+        const clickY = event.clientY;
 
-        for (let i = 0; i < 30; i++) {
+        for (let i = 0; i < 200; i++) {
             const star = document.createElement('div');
             star.className = 'star';
 
             const angle = (Math.random() * Math.PI * 2);
-            const distance = Math.random() * 150 + 50;
+            const distance = Math.random() * 600 + 200;
             const tx = Math.cos(angle) * distance;
             const ty = Math.sin(angle) * distance;
 
-            const size = Math.random() * 15 + 10;
+            const size = Math.random() * 30 + 5;
             star.style.width = `${size}px`;
             star.style.height = `${size}px`;
 
-            const hue = Math.random() * 60 + 40;
-            star.style.background = `hsl(${hue}, 100%, 50%)`;
+            const hue = Math.random() * 360;
+            const saturation = Math.random() * 15 + 85;
+            const lightness = Math.random() * 45 + 35;
+            star.style.background = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 
             star.style.setProperty('--tx', `${tx}px`);
             star.style.setProperty('--ty', `${ty}px`);
 
-            star.style.left = `${centerX}px`;
-            star.style.top = `${centerY}px`;
+            star.style.left = `${clickX}px`;
+            star.style.top = `${clickY}px`;
 
             document.body.appendChild(star);
 
-            setTimeout(() => star.remove(), 750 + Math.random() * 250);
+            setTimeout(() => star.remove(), 950 + Math.random() * 450);
         }
     }, []);
 
