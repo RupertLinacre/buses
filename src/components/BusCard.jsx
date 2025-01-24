@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import PropTypes from 'prop-types';
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
@@ -68,12 +67,12 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId }) => {
                 />
             )}
             <div className="p-4">
-                <Typography gutterBottom variant="h5" component="div">
+                <h2 className="text-xl font-medium mb-2">
                     Bus {busNumber}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
+                </h2>
+                <p className="text-gray-600 text-sm">
                     {operatorName} (Dataset {datasetId})
-                </Typography>
+                </p>
                 <div
                     ref={mapContainerRef}
                     className="h-[200px] w-full mt-4 rounded relative"

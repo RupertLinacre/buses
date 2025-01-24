@@ -1,0 +1,4 @@
+- switch to tailwind
+- switch to a database of the routes
+- automatic image processig?
+- improve the big map view
