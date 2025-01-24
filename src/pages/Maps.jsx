@@ -2,7 +2,7 @@ import LeafletMap from '../components/LeafletMap';
 
 const Maps = () => {
     return (
-        <div style={{ height: '100vh', width: '100%', padding: 0, margin: 0 }}>
+        <div className="h-screen w-full p-0 m-0">
             <LeafletMap />
         </div>
     );

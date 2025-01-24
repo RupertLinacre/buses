@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import PropTypes from 'prop-types';
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
@@ -59,16 +59,15 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId }) => {
     }, [route]);
 
     return (
-        <Card sx={{ maxWidth: 345, m: 2 }}>
+        <div className="max-w-[345px] m-2 bg-white rounded-lg shadow-md overflow-hidden">
             {imageUrl && (
-                <CardMedia
-                    component="img"
-                    height="240"
-                    image={`${import.meta.env.BASE_URL}${imageUrl}`}
+                <img
+                    src={`${import.meta.env.BASE_URL}${imageUrl}`}
                     alt={`Bus ${busNumber} (Dataset ${datasetId})`}
+                    className="w-full h-[240px] object-cover"
                 />
             )}
-            <CardContent>
+            <div className="p-4">
                 <Typography gutterBottom variant="h5" component="div">
                     Bus {busNumber}
                 </Typography>
@@ -77,16 +76,11 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId }) => {
                 </Typography>
                 <div
                     ref={mapContainerRef}
-                    style={{
-                        height: 200,
-                        width: '100%',
-                        marginTop: 16,
-                        borderRadius: '4px',
-                        zIndex: 0
-                    }}
+                    className="h-[200px] w-full mt-4 rounded relative"
+                    style={{ zIndex: 0 }}
                 />
-            </CardContent>
-        </Card>
+            </div>
+        </div>
     );
 };
 
