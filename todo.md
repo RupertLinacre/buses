@@ -1,4 +1,6 @@
-- switch to tailwind
+- switch to tailwind.
+    - Seem to have worked, but why do leaflet maps seem slower?
+    - Is that just a dev thing?  Check before and after
 - switch to a database of the routes
 - automatic image processig?
 - improve the big map view
