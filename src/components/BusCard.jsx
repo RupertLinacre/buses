@@ -64,6 +64,9 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId }) => {
                     src={`${import.meta.env.BASE_URL}${imageUrl}`}
                     alt={`Bus ${busNumber} (Dataset ${datasetId})`}
                     className="w-full h-[240px] object-cover"
+                    onError={(e) => {
+                        e.target.style.display = 'none';
+                    }}
                 />
             )}
             <div className="p-4">
