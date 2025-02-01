@@ -10,7 +10,7 @@ export const useStarExplosion = () => {
         const originX = clickX / window.innerWidth;
         const originY = clickY / window.innerHeight;
 
-        const scalar = 5;
+        const scalar = 7;
         const bus = confetti.shapeFromText({ text: '🚌', scalar });
 
         const defaults = {
@@ -31,22 +31,35 @@ export const useStarExplosion = () => {
             });
         }, 0);
 
-        setTimeout(() => {
-            confetti({
-                ...defaults,
-                particleCount: 5,
-                flat: true
-            });
-        }, 100);
 
-        setTimeout(() => {
-            confetti({
-                ...defaults,
-                particleCount: 300,
-                scalar: scalar / 4,
 
+
+
+        // ------------------------------------------------------------------------
+        // Added star explosion after the buses using the provided colours!
+        const starDefaults = {
+            origin: { x: originX, y: originY },
+            spread: 360,
+            ticks: 50,
+            gravity: 2,
+            decay: 0.99,
+            startVelocity: 30,
+            colors: ['#FFE400', '#FFBD00', '#E89400', '#FFCA6C', '#FDFFB8'],
+        };
+
+        const shootStars = () => {
+            confetti({
+                ...starDefaults,
+                particleCount: 400,
+                scalar: 1.2,
+                shapes: ['star']
             });
-        }, 200);
+
+        };
+
+        setTimeout(shootStars, 300);
+
+        // ------------------------------------------------------------------------
     }, []);
 
     return createConfettiExplosion;
