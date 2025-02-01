@@ -1,39 +1,53 @@
 import { useCallback } from 'react';
+import confetti from 'canvas-confetti';
 
 export const useStarExplosion = () => {
-    const createStarExplosion = useCallback((event) => {
+    const createConfettiExplosion = useCallback((event) => {
         const clickX = event.clientX;
         const clickY = event.clientY;
 
-        for (let i = 0; i < 200; i++) {
-            const star = document.createElement('div');
-            star.className = 'star';
+        // Convert click coordinates into normalized values (0 to 1)
+        const originX = clickX / window.innerWidth;
+        const originY = clickY / window.innerHeight;
 
-            const angle = (Math.random() * Math.PI * 2);
-            const distance = Math.random() * 600 + 200;
-            const tx = Math.cos(angle) * distance;
-            const ty = Math.sin(angle) * distance;
+        const scalar = 5;
+        const bus = confetti.shapeFromText({ text: '🚌', scalar });
 
-            const size = Math.random() * 30 + 5;
-            star.style.width = `${size}px`;
-            star.style.height = `${size}px`;
+        const defaults = {
+            origin: { x: originX, y: originY },
+            spread: 360,
+            ticks: 60,
+            gravity: 1,
+            decay: 0.96,
+            startVelocity: 20,
+            shapes: [bus],
+            scalar,
+        };
 
-            const hue = Math.random() * 360;
-            const saturation = Math.random() * 15 + 85;
-            const lightness = Math.random() * 45 + 35;
-            star.style.background = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+        setTimeout(() => {
+            confetti({
+                ...defaults,
+                particleCount: 30
+            });
+        }, 0);
 
-            star.style.setProperty('--tx', `${tx}px`);
-            star.style.setProperty('--ty', `${ty}px`);
+        setTimeout(() => {
+            confetti({
+                ...defaults,
+                particleCount: 5,
+                flat: true
+            });
+        }, 100);
 
-            star.style.left = `${clickX}px`;
-            star.style.top = `${clickY}px`;
+        setTimeout(() => {
+            confetti({
+                ...defaults,
+                particleCount: 300,
+                scalar: scalar / 4,
 
-            document.body.appendChild(star);
-
-            setTimeout(() => star.remove(), 950 + Math.random() * 450);
-        }
+            });
+        }, 200);
     }, []);
 
-    return createStarExplosion;
+    return createConfettiExplosion;
 };

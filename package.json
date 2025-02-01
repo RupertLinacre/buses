@@ -13,6 +13,7 @@
   "dependencies": {
     "@mui/icons-material": "^6.4.0",
     "axios": "^1.7.9",
+    "canvas-confetti": "^1.9.3",
     "leaflet": "^1.9.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
