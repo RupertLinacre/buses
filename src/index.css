@@ -98,6 +98,9 @@ html, body, #root {
 
 .letter-wrapper {
   position: relative;
+  transform: translateZ(0);
+  will-change: transform;
+  animation: wave-once 1s forwards;
 }
 
 .letter-outline {
@@ -129,25 +132,19 @@ html, body, #root {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: rainbow-text 5s linear infinite;
   display: inline-block;
+  transform: translateZ(0);
 }
 
 @keyframes wave-bounce {
-  0%, 100% {
-    transform: translateY(0);
+  0% {
+    transform: translateY(0) translateZ(0);
   }
   50% {
-    transform: translateY(-20px);
-  }
-}
-
-@keyframes rainbow-text {
-  0% {
-    background-position: 0% 50%;
+    transform: translateY(-20px) translateZ(0);
   }
   100% {
-    background-position: 300% 50%;
+    transform: translateY(0) translateZ(0);
   }
 }
 
@@ -164,10 +161,10 @@ html, body, #root {
 
 @keyframes bounce {
   from {
-    transform: translateY(0px);
+    transform: translateY(0px) translateZ(0);
   }
   to {
-    transform: translateY(-10px);
+    transform: translateY(-30px) translateZ(0);
   }
 }
 
@@ -184,4 +181,43 @@ html, body, #root {
 
 .animate-bounce {
   animation: wave-bounce 1s infinite;
+}
+
+@keyframes wave-once {
+  0% {
+    transform: translateY(0) translateZ(0);
+  }
+  50% {
+    transform: translateY(-20px) translateZ(0);
+  }
+  100% {
+    transform: translateY(0) translateZ(0);
+  }
+}
+
+.wave-once {
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 2);
+}
+
+/* Add a new CSS class for bounce-animation that bounces twice */
+.bounce-animation {
+  animation: bounce 0.5s ease-in-out 2 alternate;
+}
+
+/* Animate the rainbow gradient when bouncing */
+@keyframes rainbow-roll {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rainbow-animation {
+  background-size: 200% auto;
+  animation: rainbow-roll 2s linear infinite;
 }
