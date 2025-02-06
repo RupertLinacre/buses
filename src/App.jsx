@@ -9,16 +9,26 @@ function App() {
     const [buses, setBuses] = useState([]);
 
     useEffect(() => {
-        // Get all images from the public/images directory at build time
-        const busImages = import.meta.glob('/public/images/**/*.jpg', { eager: true });
+        // Get all images from the public/images directory at build time (both jpg and png, case insensitive)
+        const jpgImages = import.meta.glob('/public/images/**/*.{jpg,JPG}', { eager: true });
+        const pngImages = import.meta.glob('/public/images/**/*.{png,PNG}', { eager: true });
 
         const mappedBuses = routesData.map(bus => {
-            const imagePath = `/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
-            // Get the full public path that would match our image
-            const fullImagePath = `/public/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
+            // Check for jpg first (preferred)
+            const jpgPath = `/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
+            const fullJpgPath = `/public${jpgPath}`;
+            
+            // Check for png as fallback
+            const pngPath = `/images/${bus.dataset_id}/${bus.bus_number}.png`;
+            const fullPngPath = `/public${pngPath}`;
 
-            // Only set imageUrl if we explicitly find the image in our glob
-            const imageUrl = Object.keys(busImages).includes(fullImagePath) ? imagePath : null;
+            // Prefer jpg over png if both exist
+            let imageUrl = null;
+            if (Object.keys(jpgImages).includes(fullJpgPath)) {
+                imageUrl = jpgPath;
+            } else if (Object.keys(pngImages).includes(fullPngPath)) {
+                imageUrl = pngPath;
+            }
 
             return {
                 ...bus,
