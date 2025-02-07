@@ -14,12 +14,13 @@ function App() {
         const pngImages = import.meta.glob('/public/images/**/*.{png,PNG}', { eager: true });
 
         const mappedBuses = routesData.map(bus => {
+            const formattedServiceCode = bus.service_code.replace(':', '_');
             // Check for jpg first (preferred)
-            const jpgPath = `/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
+            const jpgPath = `/images/${bus.dataset_id}/${formattedServiceCode}.jpg`;
             const fullJpgPath = `/public${jpgPath}`;
 
             // Check for png as fallback
-            const pngPath = `/images/${bus.dataset_id}/${bus.bus_number}.png`;
+            const pngPath = `/images/${bus.dataset_id}/${formattedServiceCode}.png`;
             const fullPngPath = `/public${pngPath}`;
 
             // Prefer jpg over png if both exist
@@ -42,7 +43,7 @@ function App() {
         const busesWithoutImages = mappedBuses.filter(bus => !bus.imageUrl);
 
         // Take only first 20 buses without images
-        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 20);
+        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 2000);
 
         // Combine and set the buses
         setBuses([...busesWithImages, ...limitedBusesWithoutImages]);
@@ -73,7 +74,7 @@ function App() {
                             </Link>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                                 {buses.map((bus) => (
-                                    <div key={`${bus.dataset_id}-${bus.bus_number}`}>
+                                    <div key={`${bus.dataset_id}-${bus.service_code}`}>
                                         <BusCard
                                             busNumber={bus.bus_number}
                                             operatorName={bus.operator_name}
