@@ -30,12 +30,57 @@ const LeafletMap = () => {
                     if (bus.geom && bus.geom.features && bus.geom.features[0]?.geometry) {
                         const color = getRouteColor(index);
 
-                        // Create a GeoJSON layer for the route
+                        // Create formatted popup content
+                        const popupContent = `
+                            <div style="font-family: Arial, sans-serif; padding: 5px;">
+                                <h3 style="margin: 0 0 8px 0; color: ${color};">Route ${bus.bus_number}</h3>
+                                <table style="border-spacing: 4px;">
+                                    <tr>
+                                        <td><strong>Line Name:</strong></td>
+                                        <td>${bus.line_name || 'N/A'}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Operator:</strong></td>
+                                        <td>${bus.operator_name || 'N/A'}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Service Code:</strong></td>
+                                        <td>${bus.service_code || 'N/A'}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Dataset ID:</strong></td>
+                                        <td>${bus.dataset_id || 'N/A'}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        `;
+
+                        // Create a GeoJSON layer for the route with popup
                         L.geoJSON(bus.geom, {
                             style: {
                                 color: color,
                                 weight: 3,
                                 opacity: 0.7
+                            },
+                            onEachFeature: (feature, layer) => {
+                                const popup = L.popup({
+                                    closeButton: false,
+                                    offset: L.point(0, -10)
+                                }).setContent(popupContent);
+
+                                layer.on('mouseover', (e) => {
+                                    layer.setStyle({ weight: 5, opacity: 1 });
+                                    popup.setLatLng(e.latlng).openOn(mapRef.current);
+                                });
+
+                                layer.on('mouseout', () => {
+                                    layer.setStyle({ weight: 3, opacity: 0.7 });
+                                    mapRef.current.closePopup();
+                                });
+
+                                layer.on('mousemove', (e) => {
+                                    popup.setLatLng(e.latlng);
+                                });
                             }
                         }).addTo(mapRef.current);
 
