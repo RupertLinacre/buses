@@ -17,7 +17,7 @@ function App() {
             // Check for jpg first (preferred)
             const jpgPath = `/images/${bus.dataset_id}/${bus.bus_number}.jpg`;
             const fullJpgPath = `/public${jpgPath}`;
-            
+
             // Check for png as fallback
             const pngPath = `/images/${bus.dataset_id}/${bus.bus_number}.png`;
             const fullPngPath = `/public${pngPath}`;
@@ -80,6 +80,8 @@ function App() {
                                             imageUrl={bus.imageUrl}
                                             route={bus.route}
                                             datasetId={bus.dataset_id}
+                                            serviceName={bus.line_name}
+                                            serviceCode={bus.service_code}
                                         />
                                     </div>
                                 ))}
