@@ -29,6 +29,7 @@ const LeafletMap = () => {
                 try {
                     if (bus.geom && bus.geom.features && bus.geom.features[0]?.geometry) {
                         const color = getRouteColor(index);
+                        let labelRef = null; // Store reference to the label
 
                         // Create formatted popup content
                         const popupContent = `
@@ -56,7 +57,7 @@ const LeafletMap = () => {
                         `;
 
                         // Create a GeoJSON layer for the route with popup
-                        L.geoJSON(bus.geom, {
+                        const routeLayer = L.geoJSON(bus.geom, {
                             style: {
                                 color: color,
                                 weight: 3,
@@ -69,12 +70,26 @@ const LeafletMap = () => {
                                 }).setContent(popupContent);
 
                                 layer.on('mouseover', (e) => {
-                                    layer.setStyle({ weight: 5, opacity: 1 });
+                                    layer.setStyle({
+                                        weight: 5,
+                                        opacity: 1
+                                    });
+                                    if (labelRef) {
+                                        labelRef.getElement().style.zIndex = 9999;
+                                        setTimeout(() => labelRef.bringToFront(), 0);
+                                    }
+                                    layer.bringToFront();
                                     popup.setLatLng(e.latlng).openOn(mapRef.current);
                                 });
 
-                                layer.on('mouseout', () => {
-                                    layer.setStyle({ weight: 3, opacity: 0.7 });
+                                layer.on('mouseout', (e) => {
+                                    layer.setStyle({
+                                        weight: 3,
+                                        opacity: 0.7
+                                    });
+                                    if (labelRef) {
+                                        labelRef.getElement().style.zIndex = '';
+                                    }
                                     mapRef.current.closePopup();
                                 });
 
@@ -84,14 +99,13 @@ const LeafletMap = () => {
                             }
                         }).addTo(mapRef.current);
 
-                        // Add a label for the bus number at the first coordinate
+                        // Add label and store reference
                         const firstFeature = bus.geom.features[0];
                         if (firstFeature.geometry.coordinates && firstFeature.geometry.coordinates[0]) {
                             const coords = firstFeature.geometry.coordinates[0];
-                            // For Point, use coords directly. For LineString/Polygon, use first point
                             const [lng, lat] = Array.isArray(coords[0]) ? coords[0] : coords;
 
-                            L.marker([lat, lng], {
+                            labelRef = L.marker([lat, lng], {
                                 icon: L.divIcon({
                                     className: 'bus-label',
                                     html: `<div style="
@@ -102,7 +116,11 @@ const LeafletMap = () => {
                                         white-space: nowrap;
                                         display: inline-block;
                                         font-size: 14px;
+                                        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                                        z-index: 1000;
                                     ">${bus.bus_number}</div>`,
+                                    iconSize: null,
+                                    iconAnchor: [15, 15]
                                 })
                             }).addTo(mapRef.current);
                         }
