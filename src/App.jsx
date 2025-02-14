@@ -35,8 +35,12 @@ function App() {
             // Add rupert_ridden field
             const rupert_ridden = busesRidden.includes(bus.service_code);
 
+            // Add has_photo field
+            const has_photo = imageUrl !== null;
+
             return {
                 rupert_ridden,
+                has_photo,
                 ...bus,
                 imageUrl,
                 route: bus.geom
@@ -48,7 +52,7 @@ function App() {
         const busesWithoutImages = mappedBuses.filter(bus => !bus.imageUrl);
 
         // Take only first 20 buses without images
-        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 2000);
+        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 100);
 
         // Sort by rupert_ridden first, then combine
         const sortedBuses = [...busesWithImages, ...limitedBusesWithoutImages].sort((a, b) => {
