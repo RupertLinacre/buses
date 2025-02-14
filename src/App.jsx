@@ -94,6 +94,7 @@ function App() {
                                             datasetId={bus.dataset_id}
                                             serviceName={bus.line_name}
                                             serviceCode={bus.service_code}
+                                            rupert_ridden={bus.rupert_ridden}
                                         />
                                     </div>
                                 ))}

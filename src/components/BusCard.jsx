@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceName, serviceCode }) => {
+const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceName, serviceCode, rupert_ridden }) => {
     const mapRef = useRef(null);
     const mapContainerRef = useRef(null);
 
@@ -58,7 +58,12 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceN
     }, [route]);
 
     return (
-        <div className="max-w-[345px] m-2 bg-white rounded-lg shadow-md overflow-hidden">
+        <div
+            className={`max-w-[345px] m-2 ${rupert_ridden
+                    ? 'bg-amber-50 border-2 border-amber-400'
+                    : 'bg-white'
+                } rounded-lg shadow-md overflow-hidden`}
+        >
             {imageUrl && (
                 <img
                     src={`${import.meta.env.BASE_URL}${imageUrl}`}
@@ -104,7 +109,8 @@ BusCard.propTypes = {
     }).isRequired,
     datasetId: PropTypes.string.isRequired,
     serviceName: PropTypes.string.isRequired,
-    serviceCode: PropTypes.string.isRequired
+    serviceCode: PropTypes.string.isRequired,
+    rupert_ridden: PropTypes.bool
 };
 
 export default BusCard;
