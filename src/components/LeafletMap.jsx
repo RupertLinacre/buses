@@ -4,7 +4,7 @@ import 'leaflet-geometryutil';
 import 'leaflet/dist/leaflet.css';
 import PropTypes from 'prop-types';
 
-const LeafletMap = ({ routes }) => {
+const LeafletMap = ({ routes, filterMode }) => {
     const mapRef = useRef(null);
     const mapInstanceRef = useRef(null);
 
@@ -55,7 +55,16 @@ const LeafletMap = ({ routes }) => {
         routes.forEach((bus, index) => {
             try {
                 if (bus.geom && bus.geom.features && bus.geom.features[0]?.geometry) {
-                    const color = bus.rupert_ridden ? '#f59e0b' : getRouteColor(index);
+                    // Determine if this route should be highlighted based on filter
+                    const isHighlighted = filterMode === 'all' ||
+                        (filterMode === 'ridden' && bus.rupert_ridden) ||
+                        (filterMode === 'photos' && bus.has_photo);
+
+                    // Set color based on highlight status
+                    const color = isHighlighted
+                        ? (bus.rupert_ridden ? '#f59e0b' : getRouteColor(index))
+                        : '#9ca3af'; // gray-400 for non-highlighted routes
+
                     let isDragging = false;
                     let activeGeometry = null;
 
@@ -100,6 +109,7 @@ const LeafletMap = ({ routes }) => {
                                 box-shadow: 0 2px 4px rgba(0,0,0,0.2);
                                 z-index: 1000;
                                 cursor: move;
+                                opacity: ${isHighlighted ? 1 : 0.6};
                             ">${bus.bus_number}</div>`,
                             iconSize: null,
                             iconAnchor: [15, 15]
@@ -110,8 +120,8 @@ const LeafletMap = ({ routes }) => {
                     const routeLayer = L.geoJSON(bus.geom, {
                         style: {
                             color: color,
-                            weight: bus.rupert_ridden ? 4 : 3,
-                            opacity: bus.rupert_ridden ? 0.8 : 0.7
+                            weight: isHighlighted ? (bus.rupert_ridden ? 4 : 3) : 2,
+                            opacity: isHighlighted ? (bus.rupert_ridden ? 0.8 : 0.7) : 0.4
                         },
                         onEachFeature: (feature, layer) => {
                             const popup = L.popup({
@@ -122,7 +132,7 @@ const LeafletMap = ({ routes }) => {
                             layer.on('mouseover', (e) => {
                                 if (!isDragging) {
                                     layer.setStyle({
-                                        weight: bus.rupert_ridden ? 6 : 5,
+                                        weight: isHighlighted ? (bus.rupert_ridden ? 6 : 5) : 4,
                                         opacity: 1
                                     });
                                     layer.bringToFront();
@@ -134,8 +144,8 @@ const LeafletMap = ({ routes }) => {
                             layer.on('mouseout', (e) => {
                                 if (!isDragging) {
                                     layer.setStyle({
-                                        weight: bus.rupert_ridden ? 4 : 3,
-                                        opacity: bus.rupert_ridden ? 0.8 : 0.7
+                                        weight: isHighlighted ? (bus.rupert_ridden ? 4 : 3) : 2,
+                                        opacity: isHighlighted ? 0.8 : 0.4
                                     });
                                     mapInstanceRef.current.closePopup();
                                     activeGeometry = null;
@@ -147,7 +157,7 @@ const LeafletMap = ({ routes }) => {
                                     const nearestPoint = getNearestPointOnLine(e.latlng, activeGeometry);
                                     labelRef.setLatLng(nearestPoint);
                                     layer.setStyle({
-                                        weight: bus.rupert_ridden ? 6 : 5,
+                                        weight: isHighlighted ? (bus.rupert_ridden ? 6 : 5) : 4,
                                         opacity: 1
                                     });
                                     layer.bringToFront();
@@ -166,7 +176,7 @@ const LeafletMap = ({ routes }) => {
                         e.stopPropagation();
                         routeLayer.eachLayer(layer => {
                             layer.setStyle({
-                                weight: bus.rupert_ridden ? 6 : 5,
+                                weight: isHighlighted ? (bus.rupert_ridden ? 6 : 5) : 4,
                                 opacity: 1
                             });
                             layer.bringToFront();
@@ -182,8 +192,8 @@ const LeafletMap = ({ routes }) => {
                         activeGeometry = null;
                         routeLayer.eachLayer(layer => {
                             layer.setStyle({
-                                weight: bus.rupert_ridden ? 4 : 3,
-                                opacity: bus.rupert_ridden ? 0.8 : 0.7
+                                weight: isHighlighted ? (bus.rupert_ridden ? 4 : 3) : 2,
+                                opacity: isHighlighted ? 0.8 : 0.4
                             });
                         });
                     });
@@ -210,7 +220,7 @@ const LeafletMap = ({ routes }) => {
             }
         }
 
-    }, [routes]); // Re-run when routes change
+    }, [routes, filterMode]); // Add filterMode to dependencies
 
     return <div ref={mapRef} className="h-full w-full" />;
 };
@@ -223,8 +233,10 @@ LeafletMap.propTypes = {
         dataset_id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
         line_name: PropTypes.string,
         geom: PropTypes.object,
-        rupert_ridden: PropTypes.bool
-    })).isRequired
+        rupert_ridden: PropTypes.bool,
+        has_photo: PropTypes.bool
+    })).isRequired,
+    filterMode: PropTypes.oneOf(['all', 'ridden', 'photos']).isRequired
 };
 
 export default LeafletMap;
