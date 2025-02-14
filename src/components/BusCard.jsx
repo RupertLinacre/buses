@@ -60,8 +60,8 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceN
     return (
         <div
             className={`max-w-[345px] m-2 ${rupert_ridden
-                    ? 'bg-amber-50 border-2 border-amber-400'
-                    : 'bg-white'
+                ? 'bg-amber-50 border-2 border-amber-400'
+                : 'bg-white'
                 } rounded-lg shadow-md overflow-hidden`}
         >
             {imageUrl && (
@@ -75,8 +75,16 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceN
                 />
             )}
             <div className="p-4">
-                <h2 className="text-xl font-medium mb-2">
+                <h2 className="text-xl font-medium mb-2 flex items-center gap-2">
                     Bus {busNumber}
+                    {rupert_ridden && (
+                        <span className="text-sm bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full flex items-center gap-1">
+                            <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                            </svg>
+                            Ridden
+                        </span>
+                    )}
                 </h2>
                 <p className="text-gray-600 text-sm">
                     {operatorName} (Dataset {datasetId})
