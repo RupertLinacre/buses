@@ -4,6 +4,7 @@ import { AnimatedHeader } from './components/AnimatedHeader';
 import BusCard from './components/BusCard';
 import Maps from './pages/Maps';
 import routesData from './assets/routes.json';
+import busesRidden from './assets/buses_ridden.json';
 
 function App() {
     const [buses, setBuses] = useState([]);
@@ -31,7 +32,11 @@ function App() {
                 imageUrl = pngPath;
             }
 
+            // Add rupert_ridden field
+            const rupert_ridden = busesRidden.includes(bus.service_code);
+
             return {
+                rupert_ridden,
                 ...bus,
                 imageUrl,
                 route: bus.geom
@@ -45,8 +50,14 @@ function App() {
         // Take only first 20 buses without images
         const limitedBusesWithoutImages = busesWithoutImages.slice(0, 2000);
 
-        // Combine and set the buses
-        setBuses([...busesWithImages, ...limitedBusesWithoutImages]);
+        // Sort by rupert_ridden first, then combine
+        const sortedBuses = [...busesWithImages, ...limitedBusesWithoutImages].sort((a, b) => {
+            if (a.rupert_ridden === b.rupert_ridden) return 0;
+            return a.rupert_ridden ? -1 : 1;
+        });
+
+        // Set the sorted buses
+        setBuses(sortedBuses);
     }, []);
 
     return (
