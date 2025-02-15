@@ -2,11 +2,14 @@ import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet-geometryutil';
 
 const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceName, serviceCode, rupert_ridden }) => {
     const mapRef = useRef(null);
     const mapContainerRef = useRef(null);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const markerRef = useRef(null);
+    const animationRef = useRef(null);
 
     useEffect(() => {
         if (!mapRef.current && mapContainerRef.current) {
@@ -18,16 +21,58 @@ const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceNam
                         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     }).addTo(mapRef.current);
 
-
-
                     // Create a GeoJSON layer
-                    L.geoJSON(route, {
+                    const routeLayer = L.geoJSON(route, {
                         style: {
                             color: 'blue',
                             weight: 3,
                             opacity: 0.7
                         }
                     }).addTo(mapRef.current);
+
+                    // Create bus emoji marker
+                    const busIcon = L.divIcon({
+                        html: '🚌',
+                        className: 'bus-emoji-marker',
+                        iconSize: [20, 20],
+                        iconAnchor: [10, 10]
+                    });
+
+                    markerRef.current = L.marker([0, 0], { icon: busIcon }).addTo(mapRef.current);
+
+                    // Animation function
+                    let distance = 0;
+                    const animate = () => {
+                        const line = routeLayer.getLayers()[0];
+                        const length = L.GeometryUtil.length(line);
+
+                        // Increase from 0.5 to 2.5 for 5x speed
+                        distance = (distance + 2.5) % length;
+                        const point = L.GeometryUtil.interpolateOnLine(
+                            mapRef.current,
+                            line,
+                            distance / length
+                        );
+
+                        if (point && markerRef.current) {
+                            markerRef.current.setLatLng(point.latLng);
+
+                            // Rotate marker in direction of travel
+                            if (point.predecessor && point.successor) {
+                                const angle = L.GeometryUtil.computeAngle(
+                                    mapRef.current,
+                                    point.predecessor,
+                                    point.successor
+                                );
+                                markerRef.current.getElement().style.transform += ` rotate(${angle}deg)`;
+                            }
+                        }
+
+                        animationRef.current = requestAnimationFrame(animate);
+                    };
+
+                    // Start animation
+                    animate();
 
                     // Fit the map to the bounds of the GeoJSON
                     const layer = L.geoJSON(route);
@@ -51,6 +96,12 @@ const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceNam
         }
 
         return () => {
+            if (animationRef.current) {
+                cancelAnimationFrame(animationRef.current);
+            }
+            if (markerRef.current) {
+                markerRef.current.remove();
+            }
             if (mapRef.current) {
                 mapRef.current.remove();
                 mapRef.current = null;

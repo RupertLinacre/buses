@@ -223,3 +223,9 @@ html, body, #root {
   background-size: 200% auto;
   animation: rainbow-roll 2s linear infinite;
 }
+
+.bus-emoji-marker {
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
