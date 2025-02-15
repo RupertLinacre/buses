@@ -1,6 +1,7 @@
 # Node modules
 node_modules/
 
+public/unsorted_images/*
 # Build output
 dist/
 
