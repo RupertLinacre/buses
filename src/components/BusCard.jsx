@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceName, serviceCode, rupert_ridden }) => {
+const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceName, serviceCode, rupert_ridden }) => {
     const mapRef = useRef(null);
     const mapContainerRef = useRef(null);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {
         if (!mapRef.current && mapContainerRef.current) {
@@ -57,22 +58,55 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceN
         };
     }, [route]);
 
+    const nextImage = () => {
+        setCurrentImageIndex((prev) => (prev + 1) % images.length);
+    };
+
+    const previousImage = () => {
+        setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+    };
+
     return (
         <div
-            className={`max-w-[345px] m-2 ${rupert_ridden
-                ? 'bg-amber-50 border-2 border-amber-400'
-                : 'bg-white'
+            className={`max-w-[345px] m-2 ${rupert_ridden ? 'bg-amber-50 border-2 border-amber-400' : 'bg-white'
                 } rounded-lg shadow-md overflow-hidden`}
         >
-            {imageUrl && (
-                <img
-                    src={`${import.meta.env.BASE_URL}${imageUrl}`}
-                    alt={`Bus ${busNumber} (Dataset ${datasetId})`}
-                    className="w-full h-[240px] object-cover"
-                    onError={(e) => {
-                        e.target.style.display = 'none';
-                    }}
-                />
+            {images && images.length > 0 && (
+                <div className="relative">
+                    <img
+                        src={`${import.meta.env.BASE_URL}${images[currentImageIndex]}`}
+                        alt={`Bus ${busNumber} (Dataset ${datasetId})`}
+                        className="w-full h-[240px] object-cover"
+                        onError={(e) => {
+                            e.target.style.display = 'none';
+                        }}
+                    />
+                    {images.length > 1 && (
+                        <>
+                            <button
+                                onClick={previousImage}
+                                className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
+                            >
+                                ←
+                            </button>
+                            <button
+                                onClick={nextImage}
+                                className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
+                            >
+                                →
+                            </button>
+                            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1">
+                                {images.map((_, index) => (
+                                    <div
+                                        key={index}
+                                        className={`w-2 h-2 rounded-full ${index === currentImageIndex ? 'bg-white' : 'bg-white/50'
+                                            }`}
+                                    />
+                                ))}
+                            </div>
+                        </>
+                    )}
+                </div>
             )}
             <div className="p-4">
                 <h2 className="text-xl font-medium mb-2 flex items-center gap-2">
@@ -105,7 +139,7 @@ const BusCard = ({ busNumber, operatorName, imageUrl, route, datasetId, serviceN
 BusCard.propTypes = {
     busNumber: PropTypes.string.isRequired,
     operatorName: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string,
+    images: PropTypes.arrayOf(PropTypes.string),
     route: PropTypes.shape({
         type: PropTypes.string,
         features: PropTypes.arrayOf(

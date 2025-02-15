@@ -19,40 +19,52 @@ function App() {
 
         const mappedBuses = routesData.map(bus => {
             const formattedServiceCode = bus.service_code.replace(':', '_');
-            // Check for jpg first (preferred)
-            const jpgPath = `/images/${bus.dataset_id}/${formattedServiceCode}.jpg`;
-            const fullJpgPath = `/public${jpgPath}`;
+            const basePattern = `/images/${bus.dataset_id}/${formattedServiceCode}`;
 
-            // Check for png as fallback
-            const pngPath = `/images/${bus.dataset_id}/${formattedServiceCode}.png`;
-            const fullPngPath = `/public${pngPath}`;
+            // Find all matching images including alternatives
+            const images = [];
 
-            // Prefer jpg over png if both exist
-            let imageUrl = null;
-            if (Object.keys(jpgImages).includes(fullJpgPath)) {
-                imageUrl = jpgPath;
-            } else if (Object.keys(pngImages).includes(fullPngPath)) {
-                imageUrl = pngPath;
+            // Check for main jpg and png images
+            const mainJpgPath = `/public${basePattern}.jpg`;
+            const mainPngPath = `/public${basePattern}.png`;
+
+            if (Object.keys(jpgImages).includes(mainJpgPath)) {
+                images.push(`${basePattern}.jpg`);
+            } else if (Object.keys(pngImages).includes(mainPngPath)) {
+                images.push(`${basePattern}.png`);
             }
+
+            // Check for alternative images
+            Object.keys(jpgImages).forEach(path => {
+                if (path.startsWith(`/public${basePattern}-alt`) && path.endsWith('.jpg')) {
+                    images.push(path.replace('/public', ''));
+                }
+            });
+
+            Object.keys(pngImages).forEach(path => {
+                if (path.startsWith(`/public${basePattern}-alt`) && path.endsWith('.png')) {
+                    images.push(path.replace('/public', ''));
+                }
+            });
 
             // Add rupert_ridden field
             const rupert_ridden = busesRidden.includes(bus.service_code);
 
-            // Add has_photo field
-            const has_photo = imageUrl !== null;
+            // Update has_photo to check for any images
+            const has_photo = images.length > 0;
 
             return {
                 rupert_ridden,
                 has_photo,
                 ...bus,
-                imageUrl,
+                images, // Now we store an array of image URLs
                 route: bus.geom
             };
         });
 
         // Separate buses with and without images
-        const busesWithImages = mappedBuses.filter(bus => bus.imageUrl);
-        const busesWithoutImages = mappedBuses.filter(bus => !bus.imageUrl);
+        const busesWithImages = mappedBuses.filter(bus => bus.has_photo);
+        const busesWithoutImages = mappedBuses.filter(bus => !bus.has_photo);
 
         // Take only first 20 buses without images
         const limitedBusesWithoutImages = busesWithoutImages.slice(0, 100);
@@ -97,7 +109,7 @@ function App() {
                                             <BusCard
                                                 busNumber={bus.bus_number}
                                                 operatorName={bus.operator_name}
-                                                imageUrl={bus.imageUrl}
+                                                images={bus.images}
                                                 route={bus.route}
                                                 datasetId={bus.dataset_id}
                                                 serviceName={bus.line_name}
