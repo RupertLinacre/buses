@@ -81,7 +81,7 @@ function App() {
 
     return (
         <BusContext.Provider value={buses}>
-            <BrowserRouter basename="/vite_bus">
+            <BrowserRouter basename="/buses">
                 <Routes>
                     <Route path="/maps" element={<Maps />} />
                     <Route path="/" element={
