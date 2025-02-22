@@ -13,6 +13,11 @@ function App() {
     const [buses, setBuses] = useState([]);
 
     useEffect(() => {
+        // Create a map of service codes to counts
+        const busRidesMap = Object.fromEntries(
+            busesRidden.map(ride => [ride.service_code, ride.count])
+        );
+
         // Get all images from the public/images directory at build time (both jpg and png, case insensitive)
         const jpgImages = import.meta.glob('/public/images/**/*.{jpg,JPG}', { eager: true });
         const pngImages = import.meta.glob('/public/images/**/*.{png,PNG}', { eager: true });
@@ -47,14 +52,16 @@ function App() {
                 }
             });
 
-            // Add rupert_ridden field
-            const rupert_ridden = busesRidden.includes(bus.service_code);
+            // Update rupert_ridden to include the count
+            const rideCount = busRidesMap[bus.service_code] || 0;
+            const rupert_ridden = rideCount > 0;
 
             // Update has_photo to check for any images
             const has_photo = images.length > 0;
 
             return {
                 rupert_ridden,
+                rideCount,
                 has_photo,
                 ...bus,
                 images, // Now we store an array of image URLs
@@ -115,6 +122,7 @@ function App() {
                                                 serviceName={bus.line_name}
                                                 serviceCode={bus.service_code}
                                                 rupert_ridden={bus.rupert_ridden}
+                                                rideCount={bus.rideCount}
                                             />
                                         </div>
                                     ))}

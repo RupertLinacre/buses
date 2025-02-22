@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-geometryutil';
 
-const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceName, serviceCode, rupert_ridden }) => {
+const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceName, serviceCode, rupert_ridden, rideCount }) => {
     const mapRef = useRef(null);
     const mapContainerRef = useRef(null);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -167,7 +167,7 @@ const BusCard = ({ busNumber, operatorName, images, route, datasetId, serviceNam
                             <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                             </svg>
-                            Ridden
+                            Ridden{rideCount > 1 ? ` x${rideCount}` : ''}
                         </span>
                     )}
                 </h2>
@@ -203,7 +203,8 @@ BusCard.propTypes = {
     datasetId: PropTypes.string.isRequired,
     serviceName: PropTypes.string.isRequired,
     serviceCode: PropTypes.string.isRequired,
-    rupert_ridden: PropTypes.bool
+    rupert_ridden: PropTypes.bool,
+    rideCount: PropTypes.number
 };
 
 export default BusCard;
