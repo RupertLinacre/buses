@@ -74,7 +74,7 @@ function App() {
         const busesWithoutImages = mappedBuses.filter(bus => !bus.has_photo);
 
         // Take only first 20 buses without images
-        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 100);
+        const limitedBusesWithoutImages = busesWithoutImages.slice(0, 1000);
 
         // Sort by rupert_ridden first, then combine
         const sortedBuses = [...busesWithImages, ...limitedBusesWithoutImages].sort((a, b) => {
@@ -85,6 +85,10 @@ function App() {
         // Set the sorted buses
         setBuses(sortedBuses);
     }, []);
+
+    // Calculate statistics
+    const photographedCount = buses.filter(bus => bus.has_photo).length;
+    const totalRides = buses.reduce((sum, bus) => sum + (bus.rideCount || 0), 0);
 
     return (
         <BusContext.Provider value={buses}>
@@ -104,12 +108,21 @@ function App() {
                                     RUPERT&apos;S BEST BUS WEBSITE EVER!
                                 </AnimatedHeader>
 
+                                {/* START: Add the Stats Card Here */}
+                                <div className="bg-blue-100 border border-blue-300 px-3 py-1 rounded mb-4 text-blue-800 flex items-center gap-4 text-sm font-medium shadow-sm">
+                                    <span>Buses Photographed: <span className="font-bold">{photographedCount}</span></span>
+                                    <span>|</span>
+                                    <span>Total Rides: <span className="font-bold">{totalRides}</span></span>
+                                </div>
+                                {/* END: Stats Card */}
+
                                 <Link
                                     to="/maps"
                                     className="inline-block px-4 py-2 mb-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
                                 >
                                     Go to Big Map
                                 </Link>
+
                                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                                     {buses.map((bus) => (
                                         <div key={`${bus.dataset_id}-${bus.service_code}`}>
