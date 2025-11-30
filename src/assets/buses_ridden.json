@@ -58,5 +58,17 @@
   {
     "service_code": "PH0005727:91",
     "count": 1
+  },
+  {
+    "service_code": "PF1116442:21010105",
+    "count": 1
+  },
+  {
+    "service_code": "PH0007184:153",
+    "count": 1
+  },
+  {
+    "service_code": "PH0005727:85",
+    "count": 1
   }
 ]
