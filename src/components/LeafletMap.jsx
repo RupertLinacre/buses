@@ -51,19 +51,20 @@ const LeafletMap = ({ routes, filterMode }) => {
             }
         });
 
+        // Filter routes based on the current filter mode
+        const filteredRoutes = routes.filter((bus) => {
+            if (filterMode === 'all') return true;
+            if (filterMode === 'ridden') return bus.rupert_ridden;
+            if (filterMode === 'photos') return bus.has_photo;
+            return true;
+        });
+
         // Plot each bus route
-        routes.forEach((bus, index) => {
+        filteredRoutes.forEach((bus, index) => {
             try {
                 if (bus.geom && bus.geom.features && bus.geom.features[0]?.geometry) {
-                    // Determine if this route should be highlighted based on filter
-                    const isHighlighted = filterMode === 'all' ||
-                        (filterMode === 'ridden' && bus.rupert_ridden) ||
-                        (filterMode === 'photos' && bus.has_photo);
-
-                    // Set color based on highlight status
-                    const color = isHighlighted
-                        ? (bus.rupert_ridden ? '#f59e0b' : getRouteColor(index))
-                        : '#9ca3af'; // gray-400 for non-highlighted routes
+                    // Use distinct colors for each route
+                    const color = getRouteColor(index);
 
                     let isDragging = false;
                     let activeGeometry = null;
@@ -109,7 +110,6 @@ const LeafletMap = ({ routes, filterMode }) => {
                                 box-shadow: 0 2px 4px rgba(0,0,0,0.2);
                                 z-index: 1000;
                                 cursor: move;
-                                opacity: ${isHighlighted ? 1 : 0.6};
                             ">${bus.bus_number}</div>`,
                             iconSize: null,
                             iconAnchor: [15, 15]
@@ -120,8 +120,8 @@ const LeafletMap = ({ routes, filterMode }) => {
                     const routeLayer = L.geoJSON(bus.geom, {
                         style: {
                             color: color,
-                            weight: isHighlighted ? (bus.rupert_ridden ? 4 : 3) : 2,
-                            opacity: isHighlighted ? (bus.rupert_ridden ? 0.8 : 0.7) : 0.4
+                            weight: bus.rupert_ridden ? 4 : 3,
+                            opacity: bus.rupert_ridden ? 0.8 : 0.7
                         },
                         onEachFeature: (feature, layer) => {
                             const popup = L.popup({
@@ -132,7 +132,7 @@ const LeafletMap = ({ routes, filterMode }) => {
                             layer.on('mouseover', (e) => {
                                 if (!isDragging) {
                                     layer.setStyle({
-                                        weight: isHighlighted ? (bus.rupert_ridden ? 6 : 5) : 4,
+                                        weight: bus.rupert_ridden ? 6 : 5,
                                         opacity: 1
                                     });
                                     layer.bringToFront();
@@ -144,8 +144,8 @@ const LeafletMap = ({ routes, filterMode }) => {
                             layer.on('mouseout', (e) => {
                                 if (!isDragging) {
                                     layer.setStyle({
-                                        weight: isHighlighted ? (bus.rupert_ridden ? 4 : 3) : 2,
-                                        opacity: isHighlighted ? 0.8 : 0.4
+                                        weight: bus.rupert_ridden ? 4 : 3,
+                                        opacity: bus.rupert_ridden ? 0.8 : 0.7
                                     });
                                     mapInstanceRef.current.closePopup();
                                     activeGeometry = null;
@@ -157,7 +157,7 @@ const LeafletMap = ({ routes, filterMode }) => {
                                     const nearestPoint = getNearestPointOnLine(e.latlng, activeGeometry);
                                     labelRef.setLatLng(nearestPoint);
                                     layer.setStyle({
-                                        weight: isHighlighted ? (bus.rupert_ridden ? 6 : 5) : 4,
+                                        weight: bus.rupert_ridden ? 6 : 5,
                                         opacity: 1
                                     });
                                     layer.bringToFront();
@@ -176,7 +176,7 @@ const LeafletMap = ({ routes, filterMode }) => {
                         e.stopPropagation();
                         routeLayer.eachLayer(layer => {
                             layer.setStyle({
-                                weight: isHighlighted ? (bus.rupert_ridden ? 6 : 5) : 4,
+                                weight: bus.rupert_ridden ? 6 : 5,
                                 opacity: 1
                             });
                             layer.bringToFront();
@@ -192,8 +192,8 @@ const LeafletMap = ({ routes, filterMode }) => {
                         activeGeometry = null;
                         routeLayer.eachLayer(layer => {
                             layer.setStyle({
-                                weight: isHighlighted ? (bus.rupert_ridden ? 4 : 3) : 2,
-                                opacity: isHighlighted ? 0.8 : 0.4
+                                weight: bus.rupert_ridden ? 4 : 3,
+                                opacity: bus.rupert_ridden ? 0.8 : 0.7
                             });
                         });
                     });
@@ -211,9 +211,9 @@ const LeafletMap = ({ routes, filterMode }) => {
             }
         });
 
-        // Fit bounds to show all routes
-        if (routes.length > 0) {
-            const allLayers = L.geoJSON(routes.map(bus => bus.geom));
+        // Fit bounds to show filtered routes
+        if (filteredRoutes.length > 0) {
+            const allLayers = L.geoJSON(filteredRoutes.map(bus => bus.geom));
             const bounds = allLayers.getBounds();
             if (bounds.isValid()) {
                 mapInstanceRef.current.fitBounds(bounds, { padding: [50, 50] });
