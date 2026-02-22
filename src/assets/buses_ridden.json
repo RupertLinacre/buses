@@ -21,7 +21,7 @@
   },
   {
     "service_code": "PH0005727:5",
-    "count": 1
+    "count": 2
   },
   {
     "service_code": "PH0005727:8",
@@ -89,6 +89,10 @@
   },
   {
     "service_code": "PH0005727:47",
+    "count": 1
+  },
+  {
+    "service_code": "PH0005727:35",
     "count": 1
   }
 ]
