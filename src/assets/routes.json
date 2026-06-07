@@ -14128,7 +14128,7 @@
     "filename": "ARHE_2017_ARHEPF111644221010087SB7_20260531_-_2365528.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpiwvv8ghr",
+      "name": "tmp0dey1ohk",
       "features": [
         {
           "type": "Feature",
@@ -14262,7 +14262,7 @@
     "filename": "ARHE_998_ARHEPF11164422101009598_20260531_-_2365490.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpmbg3cbnt",
+      "name": "tmplgt3rhc4",
       "features": [
         {
           "type": "Feature",
@@ -14328,7 +14328,7 @@
     "filename": "ARHE_2401_ARHEPF111644221010072401_20260531_-_2365489.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpg69re6nw",
+      "name": "tmpt163gbq4",
       "features": [
         {
           "type": "Feature",
@@ -14425,16 +14425,16 @@
       ]
     },
     "operator_name": "Arriva UK Bus",
-    "bus_number": "400",
+    "bus_number": "401",
     "line_name": "401",
     "service_code": "PF1116442:21010072"
   },
   {
     "dataset_id": 15766,
-    "filename": "ARHE_6002_ARHEPF1116442210100572_20260412_-_2340863.xml",
+    "filename": "ARHE_6002_ARHEPF1116442210100572_20260412_-_2375506.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmplwvby5yx",
+      "name": "tmpf0_883yv",
       "features": [
         {
           "type": "Feature",
@@ -14620,7 +14620,7 @@
     "filename": "ARHE_9323_ARHEPF111644221010134323_20260412_-_2342568.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpyfuoz17s",
+      "name": "tmpuwh71331",
       "features": [
         {
           "type": "Feature",
@@ -14870,7 +14870,7 @@
     "filename": "ARHE_2055_ARHEPF11164422101008455_20260531_-_2365507.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp4n1ae3jy",
+      "name": "tmpe0jebm9s",
       "features": [
         {
           "type": "Feature",
@@ -15196,7 +15196,7 @@
     "filename": "ARHE_6824_ARHEPF111644221010070824_20260412_-_2341007.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpldhdfoxg",
+      "name": "tmpfm4b5l3f",
       "features": [
         {
           "type": "Feature",
@@ -15500,7 +15500,7 @@
     "filename": "ARHE_6004_ARHEPF1116442210100584_20260412_-_2340855.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpuoiilcll",
+      "name": "tmpfh0wjqxf",
       "features": [
         {
           "type": "Feature",
@@ -15574,7 +15574,7 @@
     "filename": "ARHE_9405_ARHEPF111644221010126405_20260412_-_2342523.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp5f1jbyu0",
+      "name": "tmphehs5ra3",
       "features": [
         {
           "type": "Feature",
@@ -15887,7 +15887,7 @@
       ]
     },
     "operator_name": "Arriva UK Bus",
-    "bus_number": "405",
+    "bus_number": "404",
     "line_name": "405",
     "service_code": "PF1116442:21010126"
   },
@@ -15896,7 +15896,7 @@
     "filename": "ARHE_9380_ARHEPF111644221010110380_20260412_-_2342522.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpry8703gl",
+      "name": "tmplax6awls",
       "features": [
         {
           "type": "Feature",
@@ -15978,7 +15978,7 @@
     "filename": "ARHE_C1_ARHEPF111644221010112C1_20260412_-_2342536.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpvc_g2kgo",
+      "name": "tmpx5htwv_t",
       "features": [
         {
           "type": "Feature",
@@ -16072,7 +16072,7 @@
     "filename": "ARHE_9511_ARHEPF111644221010135511_20260412_-_2342529.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpskvvqi6x",
+      "name": "tmpo9i15a1h",
       "features": [
         {
           "type": "Feature",
@@ -16174,7 +16174,7 @@
     "filename": "ARHE_310_ARHEPF111644221010071310_20260412_-_2342566.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpfluv0kdq",
+      "name": "tmpuu05jgne",
       "features": [
         {
           "type": "Feature",
@@ -16280,7 +16280,7 @@
     "filename": "ARHE_724_ARHEPF111644231724_20260222_-_2313626.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpri3pzg1y",
+      "name": "tmpos3zl7_t",
       "features": [
         {
           "type": "Feature",
@@ -16560,7 +16560,7 @@
     "filename": "ARHE_M2_ARHEPF111644221010113M2_20260412_-_2342555.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp5o6218vv",
+      "name": "tmpzr0k4qye",
       "features": [
         {
           "type": "Feature",
@@ -16650,7 +16650,7 @@
     "filename": "ARHE_M4_ARHEPF111644221010114M4_20260412_-_2342545.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_g82viud",
+      "name": "tmpbpjgi55r",
       "features": [
         {
           "type": "Feature",
@@ -16716,7 +16716,7 @@
     "filename": "ARHE_8251_ARHEPF111644275251_20260412_-_2342551.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_hk6nk7p",
+      "name": "tmp6injrjc_",
       "features": [
         {
           "type": "Feature",
@@ -16802,7 +16802,7 @@
     "filename": "ARHE_5A_ARHEPF111644221010088SB50_20260531_-_2365516.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp1xv6p_tl",
+      "name": "tmpfs1npvz_",
       "features": [
         {
           "type": "Feature",
@@ -16896,7 +16896,7 @@
     "filename": "ARHE_2003_ARHEPF111644221010081SB3_20260531_-_2365525.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpc1hj67bm",
+      "name": "tmppjfn_nei",
       "features": [
         {
           "type": "Feature",
@@ -17006,7 +17006,7 @@
     "filename": "ARHE_6320_ARHEPF111644221010128320_20260412_-_2348884.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpb83nnpp6",
+      "name": "tmpflub9iik",
       "features": [
         {
           "type": "Feature",
@@ -17165,10 +17165,10 @@
   },
   {
     "dataset_id": 15766,
-    "filename": "ARHE_SB9_ARHEPF111644221010085SB9_20260531_-_2365513.xml",
+    "filename": "ARHE_SB9_ARHEPF111644221010085SB9_20260531_-_2369758.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpkrys9o5e",
+      "name": "tmplukjxwcu",
       "features": [
         {
           "type": "Feature",
@@ -17269,7 +17269,7 @@
       ]
     },
     "operator_name": "Arriva UK Bus",
-    "bus_number": "SB8",
+    "bus_number": "SB9",
     "line_name": "SB9",
     "service_code": "PF1116442:21010085"
   },
@@ -17278,7 +17278,7 @@
     "filename": "ARHE_2018_ARHEPF111644221010133SB18_20260531_-_2365515.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdukxacwd",
+      "name": "tmpnybe299e",
       "features": [
         {
           "type": "Feature",
@@ -17444,7 +17444,7 @@
     "filename": "ARHE_9331_ARHEPF111644221010074331_20260412_-_2342559.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmplvznrvh_",
+      "name": "tmpqwsncgbo",
       "features": [
         {
           "type": "Feature",
@@ -17928,7 +17928,7 @@
     "filename": "ARHE_510_ARHEPF111644214510_20260419_-_2346434.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpktmgqjps",
+      "name": "tmpnw1ggozi",
       "features": [
         {
           "type": "Feature",
@@ -18472,7 +18472,7 @@
     "filename": "ARHE_8066_ARHEPF111644210166_20260412_-_2342563.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpmd8cwq0q",
+      "name": "tmpnzcm15ry",
       "features": [
         {
           "type": "Feature",
@@ -18739,10 +18739,10 @@
   },
   {
     "dataset_id": 15766,
-    "filename": "ARHE_2301_ARHEPF111644221010105301_20260531_-_2365512.xml",
+    "filename": "ARHE_2301_ARHEPF111644221010105301_20260531_-_2376684.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6cdlbhxg",
+      "name": "tmpndtmarqc",
       "features": [
         {
           "type": "Feature",
@@ -19040,7 +19040,7 @@
     "filename": "ARHE_SB1_ARHEPF111644221010089SB1_20260531_-_2365534.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpi08sas1g",
+      "name": "tmpcdqbu9vs",
       "features": [
         {
           "type": "Feature",
@@ -19110,7 +19110,7 @@
     "filename": "ARHE_997_ARHEPF11164429097_20260531_-_2365491.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpnp2ia0ap",
+      "name": "tmp95ikfehy",
       "features": [
         {
           "type": "Feature",
@@ -19200,7 +19200,7 @@
     "filename": "ARHE_6322_ARHEPF111644221010127322_20260412_-_2348899.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpbyk2s8ty",
+      "name": "tmpbzd64pxa",
       "features": [
         {
           "type": "Feature",
@@ -19334,7 +19334,7 @@
     "filename": "ARHE_4020_ARHEPF11164422101011720_20260412_-_2348893.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpz8xnov1e",
+      "name": "tmpub8h13nt",
       "features": [
         {
           "type": "Feature",
@@ -19556,7 +19556,7 @@
     "filename": "ARHE_2101_ARHEPF111644294101_20260531_-_2365498.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpo0zyh88b",
+      "name": "tmpbzgkzxuj",
       "features": [
         {
           "type": "Feature",
@@ -19754,7 +19754,7 @@
     "filename": "ARHE_8309_ARHEPF111644248309_20260222_-_2313642.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxebeuzq_",
+      "name": "tmpcarix7fb",
       "features": [
         {
           "type": "Feature",
@@ -19944,7 +19944,7 @@
     "filename": "ARHE_6302_ARHEPF1116442210100104302_20260412_-_2340868.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp8lwgpcg8",
+      "name": "tmp0nl143ai",
       "features": [
         {
           "type": "Feature",
@@ -20128,7 +20128,7 @@
     "filename": "ARHE_M5_ARHEPF111644221010115M5_20260412_-_2342541.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp3t80g332",
+      "name": "tmpufcmvu3q",
       "features": [
         {
           "type": "Feature",
@@ -20210,7 +20210,7 @@
     "filename": "ARHE_9379_ARHEPF111644221010111379_20260412_-_2342539.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpyjf7sj46",
+      "name": "tmps50pex_2",
       "features": [
         {
           "type": "Feature",
@@ -20304,7 +20304,7 @@
     "filename": "REDE_807_REDEPF112812921010036807_20190904_-_858039.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdflaax2r",
+      "name": "tmprj0nolqp",
       "features": [
         {
           "type": "Feature",
@@ -20458,7 +20458,7 @@
     "filename": "REDE_S9_REDEPF112812921010038S9_20200101_-_582795.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpuq4izc4u",
+      "name": "tmpgg64y7vm",
       "features": [
         {
           "type": "Feature",
@@ -20643,7 +20643,7 @@
       ]
     },
     "operator_name": "Red Eagle",
-    "bus_number": "S9",
+    "bus_number": "S7",
     "line_name": "S9",
     "service_code": "PF1128129:21010038"
   },
@@ -20652,7 +20652,7 @@
     "filename": "REDE_R16_REDEPF112812921010052R16_20221021_-_1520504.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdfrtof91",
+      "name": "tmp1_0kkxyw",
       "features": [
         {
           "type": "Feature",
@@ -20766,7 +20766,7 @@
     "filename": "REDE_S1_REDEPF112812921010031S1_20200323_-_637488.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp9sn1l35_",
+      "name": "tmpy8o_m9b1",
       "features": [
         {
           "type": "Feature",
@@ -20892,7 +20892,7 @@
     "filename": "REDE_KL80_REDEPF112812921010041KL80_20190625_-_829087.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpqe1cq0tk",
+      "name": "tmpm61p2cy1",
       "features": [
         {
           "type": "Feature",
@@ -21024,7 +21024,7 @@
     "filename": "REDE_S6_REDEPF112812921010037S6_20191013_-_554805.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpuakshblr",
+      "name": "tmp1czpsf1v",
       "features": [
         {
           "type": "Feature",
@@ -21158,7 +21158,7 @@
     "filename": "REDE_R17_REDEPF112812948R17_20221021_-_1520513.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpa17w8v0x",
+      "name": "tmp8xrvxgxt",
       "features": [
         {
           "type": "Feature",
@@ -21272,7 +21272,7 @@
     "filename": "REDE_319_REDEPF112812921010014319_20190625_-_480642.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp8yi3ac94",
+      "name": "tmpdszmm_3m",
       "features": [
         {
           "type": "Feature",
@@ -21510,7 +21510,7 @@
     "filename": "REDE_R2_REDEPF112812921010005R2_20190625_-_581230.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp62ul81l_",
+      "name": "tmp6kt5c6v7",
       "features": [
         {
           "type": "Feature",
@@ -21699,7 +21699,7 @@
       ]
     },
     "operator_name": "Red Eagle",
-    "bus_number": "R2",
+    "bus_number": "R1",
     "line_name": "R2",
     "service_code": "PF1128129:21010005"
   },
@@ -21708,7 +21708,7 @@
     "filename": "REDE_51_REDEPF11281292101004951_20221021_-_1520765.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpj14btyhx",
+      "name": "tmp5_wykv8g",
       "features": [
         {
           "type": "Feature",
@@ -21880,7 +21880,7 @@
     "filename": "REDE_307C_REDEPF112812921010015307C_20191014_-_494879.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmplue2zytl",
+      "name": "tmp6tjkmd0i",
       "features": [
         {
           "type": "Feature",
@@ -21978,7 +21978,7 @@
     "filename": "REDE_H19_REDEPF112812921010050H19_20221021_-_1520714.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxdw290yq",
+      "name": "tmp74z7f06d",
       "features": [
         {
           "type": "Feature",
@@ -22080,7 +22080,7 @@
     "filename": "REDE_Route 1_REDEPF1128129210100241_20190625_-_450825.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwmu999db",
+      "name": "tmp0t58xuox",
       "features": [
         {
           "type": "Feature",
@@ -22258,7 +22258,7 @@
     "filename": "REDE_H11_REDEPF112812921010026H11_20190625_-_581222.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp7joc9m_m",
+      "name": "tmpndskf2ru",
       "features": [
         {
           "type": "Feature",
@@ -22484,7 +22484,7 @@
     "filename": "REDE_ML1_REDEPF112812921010044ML1_20200330_-_1193754.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_jase5ko",
+      "name": "tmp7__y2q3x",
       "features": [
         {
           "type": "Feature",
@@ -22710,7 +22710,7 @@
     "filename": "REDE_R9_REDEPF112812921010051R9_20221021_-_1520512.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpvg_t775s",
+      "name": "tmpmqgfg2bb",
       "features": [
         {
           "type": "Feature",
@@ -23030,7 +23030,7 @@
     "filename": "REDE_352_REDEPF112812921010054352_20190625_-_1620866.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp5hrn3q2p",
+      "name": "tmpja5r_k1y",
       "features": [
         {
           "type": "Feature",
@@ -23280,7 +23280,7 @@
     "filename": "REDE_385_REDEPF112812921010053385_20230103_-_1570409.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpoyg0ds5g",
+      "name": "tmpnrpx77xk",
       "features": [
         {
           "type": "Feature",
@@ -23446,7 +23446,7 @@
     "filename": "REDE_W4_REDEPF112812921010033W4_20190629_-_554822.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpnk0d45ge",
+      "name": "tmpunw9owqf",
       "features": [
         {
           "type": "Feature",
@@ -23587,7 +23587,7 @@
       ]
     },
     "operator_name": "Red Eagle",
-    "bus_number": "W1",
+    "bus_number": "W2",
     "line_name": "W4",
     "service_code": "PF1128129:21010033"
   },
@@ -23596,7 +23596,7 @@
     "filename": "REDE_S5_REDEPF112812921010055S5_20191021_-_1620870.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpjbrs0y55",
+      "name": "tmpjjagdl33",
       "features": [
         {
           "type": "Feature",
@@ -23717,7 +23717,7 @@
       ]
     },
     "operator_name": "Red Eagle",
-    "bus_number": "S4",
+    "bus_number": "S5",
     "line_name": "S5",
     "service_code": "PF1128129:21010055"
   },
@@ -33246,7 +33246,7 @@
     "filename": "UNIB_602_UNIBPF000144921010018602_20260104_-_2364420.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdw_mcer9",
+      "name": "tmpxl8fz0ce",
       "features": [
         {
           "type": "Feature",
@@ -33468,7 +33468,7 @@
     "filename": "UNIB_653_UNIBPF000144921010073653_20260513_-_2363083.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmprwt61rab",
+      "name": "tmp608mx55h",
       "features": [
         {
           "type": "Feature",
@@ -33862,7 +33862,7 @@
     "filename": "UNIB_625_UNIBPF000144921010091625_20260104_-_2290922.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpo3ajh54y",
+      "name": "tmpkavknd5b",
       "features": [
         {
           "type": "Feature",
@@ -34015,15 +34015,231 @@
   },
   {
     "dataset_id": 10405,
-    "filename": "UNIB_641_UNIBPF000144921010077641_20250925_-_2200962.xml",
+    "filename": "UNIB_341_UNIBPF000144921010077341_20260513_-_2363013.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp8pwwjfog",
+      "name": "tmpw8alz2le",
       "features": [
         {
           "type": "Feature",
           "properties": {
-            "line_name": "641",
+            "line_name": "341",
+            "service_code": "PF0001449:21010077"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.215658,
+                51.763573
+              ],
+              [
+                -0.217344,
+                51.76198
+              ],
+              [
+                -0.217344,
+                51.76198
+              ],
+              [
+                -0.221602,
+                51.762764
+              ],
+              [
+                -0.227721,
+                51.761939
+              ],
+              [
+                -0.227721,
+                51.761939
+              ],
+              [
+                -0.231765,
+                51.762647
+              ],
+              [
+                -0.236029,
+                51.773349
+              ],
+              [
+                -0.233649,
+                51.774905
+              ],
+              [
+                -0.234046,
+                51.77661
+              ],
+              [
+                -0.236251,
+                51.776562
+              ],
+              [
+                -0.237685,
+                51.776233
+              ],
+              [
+                -0.242281,
+                51.767247
+              ],
+              [
+                -0.24759,
+                51.76676
+              ],
+              [
+                -0.249949,
+                51.764969
+              ],
+              [
+                -0.25101,
+                51.761137
+              ],
+              [
+                -0.250066,
+                51.759684
+              ],
+              [
+                -0.244382,
+                51.760921
+              ],
+              [
+                -0.239712,
+                51.75952
+              ],
+              [
+                -0.239712,
+                51.75952
+              ],
+              [
+                -0.239874,
+                51.758704
+              ],
+              [
+                -0.242976,
+                51.753463
+              ],
+              [
+                -0.242659,
+                51.749673
+              ],
+              [
+                -0.24312,
+                51.75459
+              ],
+              [
+                -0.240224,
+                51.758656
+              ],
+              [
+                -0.240224,
+                51.758656
+              ],
+              [
+                -0.236301,
+                51.760036
+              ],
+              [
+                -0.23309,
+                51.76139
+              ],
+              [
+                -0.229343,
+                51.761954
+              ],
+              [
+                -0.229343,
+                51.761954
+              ],
+              [
+                -0.226292,
+                51.76216
+              ],
+              [
+                -0.222473,
+                51.763469
+              ],
+              [
+                -0.219643,
+                51.762464
+              ],
+              [
+                -0.219643,
+                51.762464
+              ],
+              [
+                -0.216772,
+                51.761773
+              ],
+              [
+                -0.215443,
+                51.763515
+              ],
+              [
+                -0.214136,
+                51.767632
+              ],
+              [
+                -0.208469,
+                51.770918
+              ],
+              [
+                -0.190469,
+                51.774868
+              ],
+              [
+                -0.159536,
+                51.775944
+              ],
+              [
+                -0.154642,
+                51.774042
+              ],
+              [
+                -0.154642,
+                51.774042
+              ],
+              [
+                -0.153557,
+                51.768314
+              ],
+              [
+                -0.154851,
+                51.762877
+              ],
+              [
+                -0.153687,
+                51.768317
+              ],
+              [
+                -0.153687,
+                51.768317
+              ],
+              [
+                -0.15104,
+                51.772088
+              ],
+              [
+                -0.119909,
+                51.76993
+              ],
+              [
+                -0.087265,
+                51.785787
+              ],
+              [
+                -0.080534,
+                51.790309
+              ],
+              [
+                -0.076492,
+                51.797724
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "341",
             "service_code": "PF0001449:21010077"
           },
           "geometry": {
@@ -34086,36 +34302,136 @@
                 51.796349
               ],
               [
-                -0.082806,
-                51.796236
+                -0.080891,
+                51.790108
               ],
               [
-                -0.091334,
-                51.798622
+                -0.086778,
+                51.785995
               ],
               [
-                -0.103465,
-                51.798459
+                -0.095761,
+                51.782697
               ],
               [
-                -0.108298,
-                51.790399
+                -0.119327,
+                51.769975
               ],
               [
-                -0.147938,
-                51.787307
+                -0.151382,
+                51.771886
+              ],
+              [
+                -0.154851,
+                51.762877
+              ],
+              [
+                -0.153687,
+                51.768317
+              ],
+              [
+                -0.154832,
+                51.774
               ],
               [
                 -0.161169,
                 51.776437
               ],
               [
+                -0.174028,
+                51.776035
+              ],
+              [
                 -0.191954,
                 51.774352
               ],
               [
-                -0.20195,
-                51.772293
+                -0.208523,
+                51.770649
+              ],
+              [
+                -0.215658,
+                51.763573
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "341",
+            "service_code": "PF0001449:21010077"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.027937,
+                51.80869
+              ],
+              [
+                -0.038767,
+                51.807487
+              ],
+              [
+                -0.042997,
+                51.804941
+              ],
+              [
+                -0.067461,
+                51.798295
+              ],
+              [
+                -0.076657,
+                51.797943
+              ],
+              [
+                -0.075999,
+                51.796349
+              ],
+              [
+                -0.080891,
+                51.790108
+              ],
+              [
+                -0.086778,
+                51.785995
+              ],
+              [
+                -0.095761,
+                51.782697
+              ],
+              [
+                -0.119327,
+                51.769975
+              ],
+              [
+                -0.151382,
+                51.771886
+              ],
+              [
+                -0.154851,
+                51.762877
+              ],
+              [
+                -0.153687,
+                51.768317
+              ],
+              [
+                -0.154832,
+                51.774
+              ],
+              [
+                -0.161169,
+                51.776437
+              ],
+              [
+                -0.174028,
+                51.776035
+              ],
+              [
+                -0.191954,
+                51.774352
               ],
               [
                 -0.208523,
@@ -34131,8 +34447,8 @@
       ]
     },
     "operator_name": "Uno",
-    "bus_number": "641",
-    "line_name": "641",
+    "bus_number": "341",
+    "line_name": "341",
     "service_code": "PF0001449:21010077"
   },
   {
@@ -34210,7 +34526,7 @@
     "filename": "UNIB_242_UNIBPF000144921010109242_20260513_-_2362997.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpg7geph0x",
+      "name": "tmpvfoekf5b",
       "features": [
         {
           "type": "Feature",
@@ -34432,7 +34748,7 @@
     "filename": "UNIB_644_UNIBPF000144921010017644_20260511_-_2189435.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpc5a5dln6",
+      "name": "tmp50v9obqr",
       "features": [
         {
           "type": "Feature",
@@ -34549,7 +34865,7 @@
       ]
     },
     "operator_name": "Uno",
-    "bus_number": "614",
+    "bus_number": "644",
     "line_name": "644",
     "service_code": "PF0001449:21010017"
   },
@@ -34688,7 +35004,7 @@
     "filename": "UNIB_C11_UNIBPF0001449109C11_20250831_-_2189365.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmppxg6xjwf",
+      "name": "tmpigduoy4s",
       "features": [
         {
           "type": "Feature",
@@ -34834,7 +35150,7 @@
     "filename": "UNIB_610_UNIBPF000144924610_20250831_-_2189425.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpyobuini5",
+      "name": "tmpd073kfxa",
       "features": [
         {
           "type": "Feature",
@@ -34956,7 +35272,7 @@
     "filename": "UNIB_C1_UNIBPF000144975C1_20260513_-_2362835.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdgxq6fdm",
+      "name": "tmp7s4ldp1q",
       "features": [
         {
           "type": "Feature",
@@ -35082,7 +35398,7 @@
     "filename": "UNIB_C10_UNIBPF0001449110C10_20250831_-_2189362.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp983swf37",
+      "name": "tmpjqphwi0m",
       "features": [
         {
           "type": "Feature",
@@ -35236,7 +35552,7 @@
     "filename": "UNIB_X10_UNIBPF0001449107X10_20250831_-_2189369.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp11z6brnc",
+      "name": "tmp1gnt_de2",
       "features": [
         {
           "type": "Feature",
@@ -35342,7 +35658,7 @@
     "filename": "UNIB_612_UNIBPF0001449108612_20230903_-_1713297.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpczi2hh_t",
+      "name": "tmp8q38j2al",
       "features": [
         {
           "type": "Feature",
@@ -42516,7 +42832,7 @@
     "filename": "CBBH_203_CBBHPF000228021010281203_20240902_-_1920392.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpivdtumbq",
+      "name": "tmp40wlcybi",
       "features": [
         {
           "type": "Feature",
@@ -42730,7 +43046,7 @@
     "filename": "CBBH_46_CBBHPF00022806046_20260105_-_2229284.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwwebmzuq",
+      "name": "tmp32osps6j",
       "features": [
         {
           "type": "Feature",
@@ -42876,7 +43192,7 @@
     "filename": "CBBH_89_CBBHPF00022807689_20260105_-_2229302.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpa13y5pa3",
+      "name": "tmpxccs3r4d",
       "features": [
         {
           "type": "Feature",
@@ -43006,7 +43322,7 @@
     "filename": "CBBH_305_CBBHPF000228021010289305_20260105_-_2228669.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmprmddkrlh",
+      "name": "tmp9d63ne7d",
       "features": [
         {
           "type": "Feature",
@@ -43216,7 +43532,7 @@
     "filename": "CBBH_230H_CBBHPF000228021010278230_20240902_-_2228650.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxr9o11ip",
+      "name": "tmpjvmhkice",
       "features": [
         {
           "type": "Feature",
@@ -43386,7 +43702,7 @@
     "filename": "CBBH_200_CBBHPF000228021010276200_20260316_-_2321339.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6ngwu168",
+      "name": "tmpae6xdrc7",
       "features": [
         {
           "type": "Feature",
@@ -43507,7 +43823,7 @@
       ]
     },
     "operator_name": "Centrebus Group",
-    "bus_number": "201",
+    "bus_number": "200",
     "line_name": "200",
     "service_code": "PF0002280:21010276"
   },
@@ -43516,7 +43832,7 @@
     "filename": "CBBH_80_CBBHPF00022802101028280_20260105_-_2229290.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpa967x87f",
+      "name": "tmpyivly0k6",
       "features": [
         {
           "type": "Feature",
@@ -43722,7 +44038,7 @@
     "filename": "CBBH_366_CBBHPF0002280277366_20260105_-_2229258.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpncwj85go",
+      "name": "tmpfg06vkot",
       "features": [
         {
           "type": "Feature",
@@ -43856,7 +44172,7 @@
     "filename": "CBBH_907_CBBHPF000228021010285907_20260105_-_2247250.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpcimfzuww",
+      "name": "tmp06bc0j7u",
       "features": [
         {
           "type": "Feature",
@@ -44148,7 +44464,7 @@
     "filename": "CBBH_391_CBBHPF000228021010275391_20240907_-_2229267.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp0xo897r8",
+      "name": "tmp9ajmxs8e",
       "features": [
         {
           "type": "Feature",
@@ -44214,7 +44530,7 @@
     "filename": "CBBH_312_CBBHPF000228021010277312_20240902_-_2228651.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpu0hwm8zq",
+      "name": "tmpx_bf6dzs",
       "features": [
         {
           "type": "Feature",
@@ -44332,7 +44648,7 @@
     "filename": "CBBH_206_CBBHPF000228021010280206_20240902_-_1920423.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpfv_ns31w",
+      "name": "tmp9_l39wzc",
       "features": [
         {
           "type": "Feature",
@@ -44454,7 +44770,7 @@
     "filename": "CBBH_315_CBBHPF000228021010035315_20260105_-_2228747.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwbza_cks",
+      "name": "tmpffw4lel0",
       "features": [
         {
           "type": "Feature",
@@ -44620,7 +44936,7 @@
     "filename": "CBBH_45SV_CBBHPF00022807045_20260105_-_2229282.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpiog3j9nu",
+      "name": "tmplpwp8iu7",
       "features": [
         {
           "type": "Feature",
@@ -44774,7 +45090,7 @@
     "filename": "CBBH_304_CBBHPF000228021010186304_20260413_-_2325061.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpqrvoiegc",
+      "name": "tmphwxrfo1e",
       "features": [
         {
           "type": "Feature",
@@ -44950,7 +45266,7 @@
     "filename": "CBBH_SB10_CBBHPF000228021010259SB10_20240907_-_2229335.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwvd2d3bl",
+      "name": "tmptpharj60",
       "features": [
         {
           "type": "Feature",
@@ -45044,7 +45360,7 @@
     "filename": "CBBH_324_CBBHPF000228021010287324_20260105_-_2228759.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp5y94myaq",
+      "name": "tmpfrywk3oy",
       "features": [
         {
           "type": "Feature",
@@ -45126,7 +45442,7 @@
     "filename": "CBBH_81SV_CBBHPF00022802101028381_20260105_-_2229296.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpm0ve78y7",
+      "name": "tmp0om78yeo",
       "features": [
         {
           "type": "Feature",
@@ -45220,7 +45536,7 @@
     "filename": "CBBH_401_CBBHPF000228021010288401_20240901_-_1936142.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp4tv3cbjz",
+      "name": "tmpk6abgs40",
       "features": [
         {
           "type": "Feature",
@@ -45358,7 +45674,7 @@
     "filename": "CBBH_390H_CBBHPF000228021010284390_20260105_-_2229264.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpznryo3x9",
+      "name": "tmpz1fg2gr6",
       "features": [
         {
           "type": "Feature",
@@ -46025,10 +46341,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8104_ARBBPF00005085214_20260222_-_2310833.xml",
+    "filename": "ARBB_8104_ARBBPF00005085214_20260531_-_2376698.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpsynpmie2",
+      "name": "tmpcpxh_7xf",
       "features": [
         {
           "type": "Feature",
@@ -46135,10 +46451,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8X33_ARBBPF0000508563X33_20260104_-_2265270.xml",
+    "filename": "ARBB_8X33_ARBBPF0000508563X33_20260531_-_2375073.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp4efce4md",
+      "name": "tmpe_epu8nj",
       "features": [
         {
           "type": "Feature",
@@ -46360,7 +46676,7 @@
     "filename": "ARBB_1CN6_ARBBPF0000508597CN6_20260104_-_2243244.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpigazv9f8",
+      "name": "tmpkp7by0_w",
       "features": [
         {
           "type": "Feature",
@@ -46435,10 +46751,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_4321_ARBBPF0000508106321_20260104_-_2243296.xml",
+    "filename": "ARBB_4321_ARBBPF0000508106321_20260531_-_2370585.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpe4qkm5_4",
+      "name": "tmpm5shjsuo",
       "features": [
         {
           "type": "Feature",
@@ -46450,72 +46766,128 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.337843,
-                51.752978
-              ],
-              [
-                -0.342977,
-                51.745449
-              ],
-              [
-                -0.35027,
-                51.740876
-              ],
-              [
-                -0.35961,
-                51.727734
-              ],
-              [
-                -0.35958,
-                51.724569
-              ],
-              [
-                -0.377717,
-                51.709887
-              ],
-              [
-                -0.383845,
-                51.699008
-              ],
-              [
-                -0.385606,
-                51.690375
-              ],
-              [
-                -0.390668,
-                51.686162
-              ],
-              [
-                -0.391943,
-                51.68243
-              ],
-              [
-                -0.396842,
-                51.677668
-              ],
-              [
-                -0.396132,
-                51.67319
-              ],
-              [
-                -0.398707,
-                51.66578
+                -0.397404,
+                51.655169
               ],
               [
                 -0.396138,
                 51.663346
               ],
               [
-                -0.396935,
-                51.659461
+                -0.398872,
+                51.666016
               ],
               [
-                -0.387172,
-                51.649371
+                -0.396382,
+                51.67349
               ],
               [
-                -0.40349,
-                51.646942
+                -0.396465,
+                51.678922
+              ],
+              [
+                -0.385606,
+                51.690375
+              ],
+              [
+                -0.385606,
+                51.690375
+              ],
+              [
+                -0.390944,
+                51.686139
+              ],
+              [
+                -0.38563,
+                51.69156
+              ],
+              [
+                -0.384539,
+                51.699036
+              ],
+              [
+                -0.378073,
+                51.710019
+              ],
+              [
+                -0.359687,
+                51.724804
+              ],
+              [
+                -0.359102,
+                51.729382
+              ],
+              [
+                -0.350258,
+                51.741217
+              ],
+              [
+                -0.34282,
+                51.746175
+              ],
+              [
+                -0.334473,
+                51.756892
+              ],
+              [
+                -0.335442,
+                51.766384
+              ],
+              [
+                -0.334311,
+                51.770729
+              ],
+              [
+                -0.336902,
+                51.777123
+              ],
+              [
+                -0.350943,
+                51.796374
+              ],
+              [
+                -0.352451,
+                51.804713
+              ],
+              [
+                -0.344963,
+                51.807215
+              ],
+              [
+                -0.349966,
+                51.809624
+              ],
+              [
+                -0.359787,
+                51.819994
+              ],
+              [
+                -0.371255,
+                51.827491
+              ],
+              [
+                -0.409072,
+                51.842746
+              ],
+              [
+                -0.41258,
+                51.847001
+              ],
+              [
+                -0.418558,
+                51.867412
+              ],
+              [
+                -0.416611,
+                51.874867
+              ],
+              [
+                -0.412224,
+                51.878568
+              ],
+              [
+                -0.4158,
+                51.882195
               ]
             ]
           }
@@ -46844,7 +47216,7 @@
     "filename": "ARBB_1CN2_ARBBPF0000508595CN2_20260104_-_2243226.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpqkukmmxg",
+      "name": "tmpy5z35a6_",
       "features": [
         {
           "type": "Feature",
@@ -47242,7 +47614,7 @@
     "filename": "ARBB_1CN8_ARBBPF0000508598CN8_20260104_-_2243243.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp8b_egd4c",
+      "name": "tmph08i6hqn",
       "features": [
         {
           "type": "Feature",
@@ -47423,10 +47795,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_807S_ARBBPF00005084707S_20260412_-_2317720.xml",
+    "filename": "ARBB_807S_ARBBPF00005084707S_20260531_-_2376687.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpgx67t5j9",
+      "name": "tmpn467l21c",
       "features": [
         {
           "type": "Feature",
@@ -47729,10 +48101,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_82X4_ARBBPF0000508586X4_20260222_-_2310812.xml",
+    "filename": "ARBB_10X4_ARBBPF0000508586X4_20260531_-_2370623.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp2zfjbfae",
+      "name": "tmpyqp2_sq4",
       "features": [
         {
           "type": "Feature",
@@ -47744,84 +48116,64 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.81367,
-                51.815482
+                -0.375389,
+                51.87931
               ],
               [
-                -0.793663,
-                51.81521
+                -0.37742,
+                51.87654
               ],
               [
-                -0.771962,
-                51.824783
+                -0.392935,
+                51.873557
               ],
               [
-                -0.772127,
-                51.829206
+                -0.4158,
+                51.882195
               ],
               [
-                -0.768988,
-                51.830167
+                -0.458681,
+                51.888041
               ],
               [
-                -0.773894,
-                51.843886
+                -0.474383,
+                51.888227
               ],
               [
-                -0.768548,
-                51.8531
+                -0.497867,
+                51.885553
               ],
               [
-                -0.755865,
-                51.869142
+                -0.52201,
+                51.88668
               ],
               [
-                -0.714936,
-                51.897124
+                -0.53698,
+                51.89725
               ],
               [
-                -0.706748,
-                51.89886
+                -0.56727,
+                51.91317
               ],
               [
-                -0.68034,
-                51.91189
+                -0.57583,
+                51.90864
               ],
               [
-                -0.681151,
-                51.915291
+                -0.61562,
+                51.907768
               ],
               [
-                -0.678068,
-                51.917801
+                -0.644878,
+                51.913251
               ],
               [
-                -0.676,
-                51.918416
+                -0.654626,
+                51.913498
               ],
               [
-                -0.676552,
-                51.916435
-              ],
-              [
-                -0.664002,
-                51.916024
-              ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "line_name": "X4",
-            "service_code": "PF0000508:586"
-          },
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -0.664299,
-                51.91582
+                -0.660121,
+                51.915979
               ],
               [
                 -0.676552,
@@ -47957,11 +48309,55 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8205_ARBBPF00005085115_20260222_-_2310828.xml",
+    "filename": "ARBB_8205_ARBBPF00005085115_20260531_-_2376705.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpchtxa40a",
+      "name": "tmptu7rchay",
       "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "5",
+            "service_code": "PF0000508:511"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.722738,
+                51.987374
+              ],
+              [
+                -0.729054,
+                51.984448
+              ],
+              [
+                -0.729513,
+                51.981603
+              ],
+              [
+                -0.726864,
+                51.981044
+              ],
+              [
+                -0.729227,
+                51.977806
+              ],
+              [
+                -0.726563,
+                51.974216
+              ],
+              [
+                -0.720216,
+                51.976234
+              ],
+              [
+                -0.725288,
+                51.982009
+              ]
+            ]
+          }
+        },
         {
           "type": "Feature",
           "properties": {
@@ -48061,54 +48457,6 @@
               ]
             ]
           }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "line_name": "5",
-            "service_code": "PF0000508:511"
-          },
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -0.722738,
-                51.987374
-              ],
-              [
-                -0.729054,
-                51.984448
-              ],
-              [
-                -0.729513,
-                51.981603
-              ],
-              [
-                -0.726864,
-                51.981044
-              ],
-              [
-                -0.729227,
-                51.977806
-              ],
-              [
-                -0.726563,
-                51.974216
-              ],
-              [
-                -0.720216,
-                51.976234
-              ],
-              [
-                -0.721925,
-                51.979624
-              ],
-              [
-                -0.725057,
-                51.981096
-              ]
-            ]
-          }
         }
       ]
     },
@@ -48119,10 +48467,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_81LP_ARBBPF0000508600LOOP_20260222_-_2310821.xml",
+    "filename": "ARBB_81LP_ARBBPF0000508600LOOP_20260531_-_2376719.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpgbqh1a68",
+      "name": "tmpcv7wytnc",
       "features": [
         {
           "type": "Feature",
@@ -48619,10 +48967,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_1032_ARBBPF000050855432_20260104_-_2243284.xml",
+    "filename": "ARBB_1032_ARBBPF000050855432_20260531_-_2370582.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmprfkz8x83",
+      "name": "tmpsb1o58tx",
       "features": [
         {
           "type": "Feature",
@@ -48741,10 +49089,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_81X6_ARBBPF0000508588X6_20260412_-_2338978.xml",
+    "filename": "ARBB_81X6_ARBBPF0000508588X6_20260531_-_2365331.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp25kiwuxk",
+      "name": "tmp64ldt8v6",
       "features": [
         {
           "type": "Feature",
@@ -48812,8 +49160,8 @@
                 51.963194
               ],
               [
-                -0.89011,
-                51.950174
+                -0.888711,
+                51.949794
               ],
               [
                 -0.883227,
@@ -48875,10 +49223,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_1014_ARBBPF00005086214_20260104_-_2243264.xml",
+    "filename": "ARBB_1014_ARBBPF00005086214_20260531_-_2370576.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpz11_rnkx",
+      "name": "tmpx47o8ucv",
       "features": [
         {
           "type": "Feature",
@@ -48890,8 +49238,8 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.412224,
-                51.878568
+                -0.410652,
+                51.87938
               ],
               [
                 -0.41009,
@@ -48962,6 +49310,10 @@
                 51.895065
               ],
               [
+                -0.40626,
+                51.89646
+              ],
+              [
                 -0.408746,
                 51.896026
               ],
@@ -49022,16 +49374,12 @@
                 51.882839
               ],
               [
-                -0.412845,
-                51.882839
-              ],
-              [
                 -0.41063,
                 51.87922
               ],
               [
-                -0.412224,
-                51.878568
+                -0.410652,
+                51.87938
               ]
             ]
           }
@@ -49045,10 +49393,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_1013_ARBBPF000050815613_20260104_-_2243257.xml",
+    "filename": "ARBB_1013_ARBBPF000050815613_20260531_-_2370568.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6n04lkke",
+      "name": "tmphleyr1mp",
       "features": [
         {
           "type": "Feature",
@@ -49060,8 +49408,8 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.412224,
-                51.878568
+                -0.410652,
+                51.87938
               ],
               [
                 -0.40311,
@@ -49112,8 +49460,8 @@
                 51.877252
               ],
               [
-                -0.412224,
-                51.878568
+                -0.410652,
+                51.87938
               ]
             ]
           }
@@ -49185,10 +49533,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_10X1_ARBBPF0000508594X1_20260104_-_2294896.xml",
+    "filename": "ARBB_10X1_ARBBPF0000508594X1_20260531_-_2370595.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp0xyesskz",
+      "name": "tmps4uaxnp_",
       "features": [
         {
           "type": "Feature",
@@ -49200,48 +49548,72 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.75631,
-                52.041339
+                -0.375389,
+                51.87931
               ],
               [
-                -0.755403,
-                52.042525
+                -0.37742,
+                51.87654
               ],
               [
-                -0.774,
-                52.03449
-              ],
-              [
-                -0.59116,
-                51.93421
-              ],
-              [
-                -0.524513,
-                51.888732
-              ],
-              [
-                -0.51945,
-                51.88658
-              ],
-              [
-                -0.474245,
-                51.893153
-              ],
-              [
-                -0.465214,
-                51.89291
-              ],
-              [
-                -0.456684,
-                51.892052
-              ],
-              [
-                -0.456179,
-                51.889257
+                -0.392935,
+                51.873557
               ],
               [
                 -0.4158,
                 51.882195
+              ],
+              [
+                -0.458681,
+                51.888041
+              ],
+              [
+                -0.474383,
+                51.888227
+              ],
+              [
+                -0.497867,
+                51.885553
+              ],
+              [
+                -0.52201,
+                51.88668
+              ],
+              [
+                -0.59078,
+                51.9338
+              ],
+              [
+                -0.713391,
+                51.997459
+              ],
+              [
+                -0.730493,
+                52.00874
+              ],
+              [
+                -0.732742,
+                52.016811
+              ],
+              [
+                -0.740163,
+                52.022394
+              ],
+              [
+                -0.746815,
+                52.032067
+              ],
+              [
+                -0.754401,
+                52.036077
+              ],
+              [
+                -0.755264,
+                52.042281
+              ],
+              [
+                -0.774,
+                52.03449
               ]
             ]
           }
@@ -49357,10 +49729,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8008_ARBBPF00005084718_20260222_-_2310843.xml",
+    "filename": "ARBB_8008_ARBBPF00005084718_20260531_-_2376714.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptg9ejgfn",
+      "name": "tmpyuig6mye",
       "features": [
         {
           "type": "Feature",
@@ -49490,7 +49862,7 @@
     "filename": "ARBB_1CN4_ARBBPF0000508596CN4_20260104_-_2243227.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpgmgyzsgh",
+      "name": "tmp1v42nrd8",
       "features": [
         {
           "type": "Feature",
@@ -50091,10 +50463,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8303_ARBBPF00005085913_20260222_-_2310817.xml",
+    "filename": "ARBB_8303_ARBBPF00005085913_20260531_-_2376693.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpns4h63r9",
+      "name": "tmp_ahet038",
       "features": [
         {
           "type": "Feature",
@@ -50275,10 +50647,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8202_ARBBPF00005084662_20260222_-_2311704.xml",
+    "filename": "ARBB_8202_ARBBPF00005084662_20260531_-_2376702.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpybefxoyd",
+      "name": "tmpw_pus2z5",
       "features": [
         {
           "type": "Feature",
@@ -50736,7 +51108,7 @@
     "filename": "UNIB_PB1_UNIBPF000144921010110PB1_20250831_-_2189371.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwk78hfs6",
+      "name": "tmp6a9hwn5d",
       "features": [
         {
           "type": "Feature",
@@ -50863,10 +51235,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_100L_ARBBPF0000508605L_20260104_-_2243269.xml",
+    "filename": "ARBB_100L_ARBBPF0000508605L_20260531_-_2375079.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpt08x2mnu",
+      "name": "tmpx6hwo849",
       "features": [
         {
           "type": "Feature",
@@ -50877,6 +51249,172 @@
           "geometry": {
             "type": "LineString",
             "coordinates": [
+              [
+                -0.493136,
+                51.915698
+              ],
+              [
+                -0.50213,
+                51.91906
+              ],
+              [
+                -0.50837,
+                51.91906
+              ],
+              [
+                -0.50602,
+                51.91764
+              ],
+              [
+                -0.50527,
+                51.912766
+              ],
+              [
+                -0.509958,
+                51.91011
+              ],
+              [
+                -0.510505,
+                51.907617
+              ],
+              [
+                -0.503915,
+                51.901644
+              ],
+              [
+                -0.499173,
+                51.90305
+              ],
+              [
+                -0.495256,
+                51.901948
+              ],
+              [
+                -0.492278,
+                51.897567
+              ],
+              [
+                -0.49409,
+                51.89548
+              ],
+              [
+                -0.48417,
+                51.89004
+              ],
+              [
+                -0.458198,
+                51.888151
+              ],
+              [
+                -0.4158,
+                51.882195
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "L",
+            "service_code": "PF0000508:605"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.4158,
+                51.882195
+              ],
+              [
+                -0.48435,
+                51.88996
+              ],
+              [
+                -0.49433,
+                51.89664
+              ],
+              [
+                -0.492761,
+                51.897951
+              ],
+              [
+                -0.49579,
+                51.90208
+              ],
+              [
+                -0.49818,
+                51.903181
+              ],
+              [
+                -0.504692,
+                51.901438
+              ],
+              [
+                -0.504489,
+                51.90274
+              ],
+              [
+                -0.510794,
+                51.908134
+              ],
+              [
+                -0.51019,
+                51.910131
+              ],
+              [
+                -0.505838,
+                51.91289
+              ],
+              [
+                -0.50763,
+                51.91427
+              ],
+              [
+                -0.50849,
+                51.91922
+              ],
+              [
+                -0.493136,
+                51.915698
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Arriva UK Bus",
+    "bus_number": "L",
+    "line_name": "L",
+    "service_code": "PF0000508:605"
+  },
+  {
+    "dataset_id": 16194,
+    "filename": "ARBB_100Z_ARBBPF0000508607Z_20260531_-_2370613.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpo6ska8un",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "Z",
+            "service_code": "PF0000508:607"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.375389,
+                51.87931
+              ],
+              [
+                -0.37742,
+                51.87654
+              ],
+              [
+                -0.392935,
+                51.873557
+              ],
               [
                 -0.4158,
                 51.882195
@@ -50926,12 +51464,140 @@
                 51.908526
               ],
               [
-                -0.50763,
-                51.91427
+                -0.505838,
+                51.91289
               ],
               [
-                -0.50225,
-                51.91764
+                -0.511272,
+                51.913463
+              ],
+              [
+                -0.521108,
+                51.909675
+              ],
+              [
+                -0.519248,
+                51.905687
+              ],
+              [
+                -0.522349,
+                51.903582
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "Z",
+            "service_code": "PF0000508:607"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.475919,
+                51.893972
+              ],
+              [
+                -0.480052,
+                51.898066
+              ],
+              [
+                -0.488476,
+                51.89696
+              ],
+              [
+                -0.492761,
+                51.897951
+              ],
+              [
+                -0.494065,
+                51.900611
+              ],
+              [
+                -0.49818,
+                51.903181
+              ],
+              [
+                -0.502227,
+                51.901686
+              ],
+              [
+                -0.499194,
+                51.908526
+              ],
+              [
+                -0.501386,
+                51.910811
+              ],
+              [
+                -0.50863,
+                51.913339
+              ],
+              [
+                -0.521108,
+                51.909675
+              ],
+              [
+                -0.519248,
+                51.905687
+              ],
+              [
+                -0.52593,
+                51.90162
+              ],
+              [
+                -0.524363,
+                51.89818
+              ],
+              [
+                -0.524862,
+                51.89405
+              ],
+              [
+                -0.517072,
+                51.890384
+              ],
+              [
+                -0.521086,
+                51.889552
+              ],
+              [
+                -0.521718,
+                51.886683
+              ],
+              [
+                -0.497932,
+                51.88577
+              ],
+              [
+                -0.474365,
+                51.888326
+              ],
+              [
+                -0.458198,
+                51.888151
+              ],
+              [
+                -0.4158,
+                51.882195
+              ],
+              [
+                -0.401757,
+                51.875474
+              ],
+              [
+                -0.39082,
+                51.873807
+              ],
+              [
+                -0.379434,
+                51.876708
+              ],
+              [
+                -0.375389,
+                51.87931
               ]
             ]
           }
@@ -50939,22 +51605,230 @@
       ]
     },
     "operator_name": "Arriva UK Bus",
-    "bus_number": "L",
-    "line_name": "L",
-    "service_code": "PF0000508:605"
+    "bus_number": "Z",
+    "line_name": "Z",
+    "service_code": "PF0000508:607"
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_100Z_ARBBPF0000508607Z_20260104_-_2243277.xml",
+    "filename": "ARBB_1104_ARBBPF00005086024_20260531_-_2370546.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_df6an1r",
+      "name": "tmpys8juoqj",
       "features": [
         {
           "type": "Feature",
           "properties": {
-            "line_name": "Z",
-            "service_code": "PF0000508:607"
+            "line_name": "4",
+            "service_code": "PF0000508:602"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.411403,
+                51.908462
+              ],
+              [
+                -0.416431,
+                51.910993
+              ],
+              [
+                -0.418002,
+                51.908074
+              ],
+              [
+                -0.424381,
+                51.907755
+              ],
+              [
+                -0.42823,
+                51.921258
+              ],
+              [
+                -0.430942,
+                51.925547
+              ],
+              [
+                -0.433009,
+                51.925512
+              ],
+              [
+                -0.434113,
+                51.920518
+              ],
+              [
+                -0.437985,
+                51.919562
+              ],
+              [
+                -0.441851,
+                51.923399
+              ],
+              [
+                -0.445333,
+                51.924488
+              ],
+              [
+                -0.453795,
+                51.922864
+              ],
+              [
+                -0.454213,
+                51.91787
+              ],
+              [
+                -0.457251,
+                51.914952
+              ],
+              [
+                -0.457413,
+                51.912751
+              ],
+              [
+                -0.45472,
+                51.909056
+              ],
+              [
+                -0.463002,
+                51.903203
+              ],
+              [
+                -0.483492,
+                51.897768
+              ],
+              [
+                -0.485896,
+                51.9002
+              ],
+              [
+                -0.480664,
+                51.904485
+              ],
+              [
+                -0.483198,
+                51.906945
+              ],
+              [
+                -0.497249,
+                51.903645
+              ],
+              [
+                -0.502227,
+                51.901686
+              ],
+              [
+                -0.51489,
+                51.89141
+              ],
+              [
+                -0.521086,
+                51.889552
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Arriva UK Bus",
+    "bus_number": "4A|4B|4",
+    "line_name": "4",
+    "service_code": "PF0000508:602"
+  },
+  {
+    "dataset_id": 16194,
+    "filename": "ARBB_8CS1_ARBBPF0000508599CS1_20260531_-_2370901.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpvob2uw1e",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "CS1",
+            "service_code": "PF0000508:599"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.674478,
+                51.908521
+              ],
+              [
+                -0.667502,
+                51.916171
+              ],
+              [
+                -0.660898,
+                51.916735
+              ],
+              [
+                -0.657112,
+                51.913526
+              ],
+              [
+                -0.644339,
+                51.913299
+              ],
+              [
+                -0.615399,
+                51.907864
+              ],
+              [
+                -0.57554,
+                51.90883
+              ],
+              [
+                -0.56734,
+                51.91323
+              ],
+              [
+                -0.535722,
+                51.896631
+              ],
+              [
+                -0.521718,
+                51.886683
+              ],
+              [
+                -0.497932,
+                51.88577
+              ],
+              [
+                -0.474365,
+                51.888326
+              ],
+              [
+                -0.458198,
+                51.888151
+              ],
+              [
+                -0.4158,
+                51.882195
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Arriva UK Bus",
+    "bus_number": "CS1",
+    "line_name": "CS1",
+    "service_code": "PF0000508:599"
+  },
+  {
+    "dataset_id": 16194,
+    "filename": "ARBB_100A_ARBBPF0000508603A_20260531_-_2370610.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpexydvw7a",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "A",
+            "service_code": "PF0000508:603"
           },
           "geometry": {
             "type": "LineString",
@@ -51004,474 +51878,6 @@
                 51.884437
               ],
               [
-                -0.43496,
-                51.884437
-              ],
-              [
-                -0.456179,
-                51.889797
-              ],
-              [
-                -0.457196,
-                51.89197
-              ],
-              [
-                -0.475919,
-                51.893972
-              ],
-              [
-                -0.480052,
-                51.898066
-              ],
-              [
-                -0.483849,
-                51.896685
-              ],
-              [
-                -0.492761,
-                51.897951
-              ],
-              [
-                -0.49579,
-                51.90208
-              ],
-              [
-                -0.49818,
-                51.903181
-              ],
-              [
-                -0.504692,
-                51.901438
-              ],
-              [
-                -0.504489,
-                51.90274
-              ],
-              [
-                -0.509934,
-                51.906441
-              ],
-              [
-                -0.51019,
-                51.910131
-              ],
-              [
-                -0.505838,
-                51.91289
-              ],
-              [
-                -0.50863,
-                51.913339
-              ],
-              [
-                -0.521108,
-                51.909675
-              ],
-              [
-                -0.519248,
-                51.905687
-              ],
-              [
-                -0.52593,
-                51.90162
-              ],
-              [
-                -0.524363,
-                51.89818
-              ],
-              [
-                -0.524862,
-                51.89405
-              ],
-              [
-                -0.51669,
-                51.890666
-              ],
-              [
-                -0.521086,
-                51.889552
-              ],
-              [
-                -0.521718,
-                51.886683
-              ],
-              [
-                -0.497932,
-                51.88577
-              ],
-              [
-                -0.474365,
-                51.888326
-              ],
-              [
-                -0.458198,
-                51.888151
-              ],
-              [
-                -0.458198,
-                51.888151
-              ],
-              [
-                -0.434871,
-                51.884507
-              ],
-              [
-                -0.4158,
-                51.882195
-              ],
-              [
-                -0.401757,
-                51.875474
-              ],
-              [
-                -0.401757,
-                51.875474
-              ],
-              [
-                -0.395842,
-                51.874194
-              ],
-              [
-                -0.395842,
-                51.874194
-              ],
-              [
-                -0.39082,
-                51.873807
-              ],
-              [
-                -0.39082,
-                51.873807
-              ],
-              [
-                -0.384379,
-                51.87527
-              ],
-              [
-                -0.382998,
-                51.875991
-              ],
-              [
-                -0.379434,
-                51.876708
-              ],
-              [
-                -0.375389,
-                51.87931
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    "operator_name": "Arriva UK Bus",
-    "bus_number": "Z",
-    "line_name": "Z",
-    "service_code": "PF0000508:607"
-  },
-  {
-    "dataset_id": 16194,
-    "filename": "ARBB_1104_ARBBPF00005086024_20260104_-_2243223.xml",
-    "geom": {
-      "type": "FeatureCollection",
-      "name": "tmphjd8gm2n",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "line_name": "4",
-            "service_code": "PF0000508:602"
-          },
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -0.521086,
-                51.889552
-              ],
-              [
-                -0.521718,
-                51.886683
-              ],
-              [
-                -0.513597,
-                51.887057
-              ],
-              [
-                -0.511365,
-                51.889528
-              ],
-              [
-                -0.513213,
-                51.891647
-              ],
-              [
-                -0.51251,
-                51.8935
-              ],
-              [
-                -0.499173,
-                51.90305
-              ],
-              [
-                -0.495256,
-                51.901948
-              ],
-              [
-                -0.492278,
-                51.897567
-              ],
-              [
-                -0.487407,
-                51.89674
-              ],
-              [
-                -0.465694,
-                51.902294
-              ],
-              [
-                -0.454681,
-                51.909334
-              ],
-              [
-                -0.457676,
-                51.914409
-              ],
-              [
-                -0.454369,
-                51.917998
-              ],
-              [
-                -0.455304,
-                51.921688
-              ],
-              [
-                -0.453246,
-                51.923163
-              ],
-              [
-                -0.444992,
-                51.924681
-              ],
-              [
-                -0.437635,
-                51.919594
-              ],
-              [
-                -0.434878,
-                51.920276
-              ],
-              [
-                -0.434156,
-                51.925131
-              ],
-              [
-                -0.429606,
-                51.925089
-              ],
-              [
-                -0.42569,
-                51.91696
-              ],
-              [
-                -0.41386,
-                51.91247
-              ],
-              [
-                -0.414181,
-                51.909263
-              ],
-              [
-                -0.411133,
-                51.908692
-              ],
-              [
-                -0.413699,
-                51.906847
-              ],
-              [
-                -0.409708,
-                51.906236
-              ],
-              [
-                -0.416749,
-                51.904442
-              ],
-              [
-                -0.415709,
-                51.898872
-              ],
-              [
-                -0.418674,
-                51.886881
-              ],
-              [
-                -0.4158,
-                51.882195
-              ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "line_name": "4",
-            "service_code": "PF0000508:602"
-          },
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -0.4158,
-                51.882195
-              ],
-              [
-                -0.414662,
-                51.879885
-              ],
-              [
-                -0.418696,
-                51.886656
-              ],
-              [
-                -0.416316,
-                51.896083
-              ],
-              [
-                -0.416234,
-                51.905038
-              ],
-              [
-                -0.410204,
-                51.905775
-              ],
-              [
-                -0.413764,
-                51.907064
-              ],
-              [
-                -0.411403,
-                51.908462
-              ],
-              [
-                -0.414731,
-                51.909325
-              ],
-              [
-                -0.41498,
-                51.91262
-              ],
-              [
-                -0.427002,
-                51.916782
-              ],
-              [
-                -0.430942,
-                51.925547
-              ],
-              [
-                -0.433009,
-                51.925512
-              ],
-              [
-                -0.434113,
-                51.920518
-              ],
-              [
-                -0.437985,
-                51.919562
-              ],
-              [
-                -0.441851,
-                51.923399
-              ],
-              [
-                -0.445333,
-                51.924488
-              ],
-              [
-                -0.453795,
-                51.922864
-              ],
-              [
-                -0.454213,
-                51.91787
-              ],
-              [
-                -0.457251,
-                51.914952
-              ],
-              [
-                -0.457413,
-                51.912751
-              ],
-              [
-                -0.45472,
-                51.909056
-              ],
-              [
-                -0.465112,
-                51.902305
-              ],
-              [
-                -0.483849,
-                51.896685
-              ],
-              [
-                -0.492761,
-                51.897951
-              ],
-              [
-                -0.494065,
-                51.900611
-              ],
-              [
-                -0.49818,
-                51.903181
-              ],
-              [
-                -0.502227,
-                51.901686
-              ],
-              [
-                -0.51489,
-                51.89141
-              ],
-              [
-                -0.521086,
-                51.889552
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    "operator_name": "Arriva UK Bus",
-    "bus_number": "4A|4B|4",
-    "line_name": "4",
-    "service_code": "PF0000508:602"
-  },
-  {
-    "dataset_id": 16194,
-    "filename": "ARBB_1CS1_ARBBPF0000508599CS1_20260222_-_2303420.xml",
-    "geom": {
-      "type": "FeatureCollection",
-      "name": "tmpic_2o_w3",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "line_name": "CS1",
-            "service_code": "PF0000508:599"
-          },
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -0.4158,
-                51.882195
-              ],
-              [
                 -0.458681,
                 51.888041
               ],
@@ -51484,67 +51890,9 @@
                 51.885553
               ],
               [
-                -0.52201,
-                51.88668
+                -0.515442,
+                51.890596
               ],
-              [
-                -0.545959,
-                51.902315
-              ],
-              [
-                -0.612168,
-                51.900444
-              ],
-              [
-                -0.61562,
-                51.907768
-              ],
-              [
-                -0.644878,
-                51.913251
-              ],
-              [
-                -0.654626,
-                51.913498
-              ],
-              [
-                -0.660121,
-                51.915979
-              ],
-              [
-                -0.669987,
-                51.916217
-              ],
-              [
-                -0.674478,
-                51.908521
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    "operator_name": "Arriva UK Bus",
-    "bus_number": "CS1",
-    "line_name": "CS1",
-    "service_code": "PF0000508:599"
-  },
-  {
-    "dataset_id": 16194,
-    "filename": "ARBB_100A_ARBBPF0000508603A_20260104_-_2243250.xml",
-    "geom": {
-      "type": "FeatureCollection",
-      "name": "tmp8f0oqki7",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "line_name": "A",
-            "service_code": "PF0000508:603"
-          },
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
               [
                 -0.521086,
                 51.889552
@@ -51578,28 +51926,24 @@
                 51.91039
               ],
               [
-                -0.505807,
-                51.912971
+                -0.510468,
+                51.913147
               ],
               [
-                -0.509958,
-                51.91011
+                -0.50527,
+                51.912766
               ],
               [
-                -0.510505,
-                51.907617
+                -0.498944,
+                51.908621
               ],
               [
-                -0.503915,
-                51.901644
+                -0.502531,
+                51.901744
               ],
               [
-                -0.499173,
-                51.90305
-              ],
-              [
-                -0.495256,
-                51.901948
+                -0.497377,
+                51.902874
               ],
               [
                 -0.492278,
@@ -51634,6 +51978,10 @@
                 51.875474
               ],
               [
+                -0.401757,
+                51.875474
+              ],
+              [
                 -0.395842,
                 51.874194
               ],
@@ -51657,10 +52005,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_10X3_ARBBPF0000508606X3_20260222_-_2303426.xml",
+    "filename": "ARBB_80X3_ARBBPF0000508606X3_20260531_-_2364601.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_h863yf7",
+      "name": "tmpw39kvhlx",
       "features": [
         {
           "type": "Feature",
@@ -51672,68 +52020,132 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.375389,
-                51.87931
+                -0.774,
+                52.03449
               ],
               [
-                -0.37742,
-                51.87654
+                -0.75631,
+                52.041339
               ],
               [
-                -0.392935,
-                51.873557
+                -0.754032,
+                52.036235
+              ],
+              [
+                -0.744865,
+                52.030905
+              ],
+              [
+                -0.740792,
+                52.023353
+              ],
+              [
+                -0.732536,
+                52.016899
+              ],
+              [
+                -0.726286,
+                52.00196
+              ],
+              [
+                -0.732897,
+                51.9955
+              ],
+              [
+                -0.728906,
+                51.990183
+              ],
+              [
+                -0.721056,
+                51.988651
+              ],
+              [
+                -0.716321,
+                51.975609
+              ],
+              [
+                -0.71852,
+                51.95847
+              ],
+              [
+                -0.716758,
+                51.955102
+              ],
+              [
+                -0.696222,
+                51.938108
+              ],
+              [
+                -0.687122,
+                51.92345
+              ],
+              [
+                -0.676,
+                51.918416
+              ],
+              [
+                -0.676552,
+                51.916435
+              ],
+              [
+                -0.660898,
+                51.916735
+              ],
+              [
+                -0.657112,
+                51.913526
+              ],
+              [
+                -0.644339,
+                51.913299
+              ],
+              [
+                -0.615399,
+                51.907864
+              ],
+              [
+                -0.611732,
+                51.900897
+              ],
+              [
+                -0.545268,
+                51.9021
+              ],
+              [
+                -0.521718,
+                51.886683
+              ],
+              [
+                -0.497932,
+                51.88577
+              ],
+              [
+                -0.474365,
+                51.888326
+              ],
+              [
+                -0.458198,
+                51.888151
               ],
               [
                 -0.4158,
                 51.882195
               ],
               [
-                -0.458681,
-                51.888041
+                -0.401757,
+                51.875474
               ],
               [
-                -0.474383,
-                51.888227
+                -0.39082,
+                51.873807
               ],
               [
-                -0.497867,
-                51.885553
+                -0.379434,
+                51.876708
               ],
               [
-                -0.52201,
-                51.88668
-              ],
-              [
-                -0.53698,
-                51.89725
-              ],
-              [
-                -0.56727,
-                51.91317
-              ],
-              [
-                -0.57583,
-                51.90864
-              ],
-              [
-                -0.61562,
-                51.907768
-              ],
-              [
-                -0.644878,
-                51.913251
-              ],
-              [
-                -0.654626,
-                51.913498
-              ],
-              [
-                -0.660121,
-                51.915979
-              ],
-              [
-                -0.676552,
-                51.916435
+                -0.375389,
+                51.87931
               ]
             ]
           }
@@ -51747,10 +52159,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_1101_ARBBPF00005086081_20260104_-_2243220.xml",
+    "filename": "ARBB_1101_ARBBPF00005086081_20260531_-_2370550.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmprj8j00te",
+      "name": "tmpe6roue7r",
       "features": [
         {
           "type": "Feature",
@@ -51798,22 +52210,6 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.521086,
-                51.889552
-              ],
-              [
-                -0.521718,
-                51.886683
-              ],
-              [
-                -0.51945,
-                51.88658
-              ],
-              [
-                -0.474245,
-                51.893153
-              ],
-              [
                 -0.448276,
                 51.891842
               ],
@@ -51853,11 +52249,87 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_100H_ARBBPF0000508604H_20260104_-_2243272.xml",
+    "filename": "ARBB_100H_ARBBPF0000508604H_20260531_-_2375092.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp52nvk704",
+      "name": "tmp04zj_7ct",
       "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "H",
+            "service_code": "PF0000508:604"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.4158,
+                51.882195
+              ],
+              [
+                -0.48435,
+                51.88996
+              ],
+              [
+                -0.49433,
+                51.89664
+              ],
+              [
+                -0.492761,
+                51.897951
+              ],
+              [
+                -0.49579,
+                51.90208
+              ],
+              [
+                -0.49818,
+                51.903181
+              ],
+              [
+                -0.504692,
+                51.901438
+              ],
+              [
+                -0.504489,
+                51.90274
+              ],
+              [
+                -0.509934,
+                51.906441
+              ],
+              [
+                -0.52225,
+                51.90492
+              ],
+              [
+                -0.53323,
+                51.9141
+              ],
+              [
+                -0.53722,
+                51.90961
+              ],
+              [
+                -0.54733,
+                51.91023
+              ],
+              [
+                -0.545268,
+                51.9021
+              ],
+              [
+                -0.521718,
+                51.886683
+              ],
+              [
+                -0.51945,
+                51.88658
+              ]
+            ]
+          }
+        },
         {
           "type": "Feature",
           "properties": {
@@ -51888,36 +52360,32 @@
                 51.90471
               ],
               [
-                -0.52593,
-                51.90162
+                -0.512906,
+                51.906677
               ],
               [
-                -0.524363,
-                51.89818
+                -0.508538,
+                51.90601
               ],
               [
-                -0.524862,
-                51.89405
+                -0.503915,
+                51.901644
               ],
               [
-                -0.51669,
-                51.890666
+                -0.497377,
+                51.902874
               ],
               [
-                -0.521086,
-                51.889552
+                -0.492278,
+                51.897567
               ],
               [
-                -0.521718,
-                51.886683
+                -0.49409,
+                51.89548
               ],
               [
-                -0.497932,
-                51.88577
-              ],
-              [
-                -0.474365,
-                51.888326
+                -0.48417,
+                51.89004
               ],
               [
                 -0.458198,
@@ -51926,22 +52394,6 @@
               [
                 -0.4158,
                 51.882195
-              ],
-              [
-                -0.401757,
-                51.875474
-              ],
-              [
-                -0.39082,
-                51.873807
-              ],
-              [
-                -0.379434,
-                51.876708
-              ],
-              [
-                -0.375389,
-                51.87931
               ]
             ]
           }
@@ -51958,7 +52410,7 @@
     "filename": "PULH_606_PULHPH000015364606_20260503_-_2356324.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp09ylik7j",
+      "name": "tmpqtfp0e5d",
       "features": [
         {
           "type": "Feature",
@@ -52248,7 +52700,7 @@
     "filename": "PULH_L_PULHPH000015382L_20260503_-_2359090.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpu2l8wbxp",
+      "name": "tmp3c9s5qt0",
       "features": [
         {
           "type": "Feature",
@@ -52618,7 +53070,7 @@
     "filename": "PULH_802_PULHPH000015311802_20260503_-_2356271.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptbdh4vsr",
+      "name": "tmp6codsax5",
       "features": [
         {
           "type": "Feature",
@@ -52732,7 +53184,7 @@
     "filename": "PULH_Q_PULHPH000015360Q_20260503_-_2356282.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpanhaw05r",
+      "name": "tmp9ysdkwbx",
       "features": [
         {
           "type": "Feature",
@@ -52890,7 +53342,7 @@
     "filename": "CSLB_10_CSLBPF100067111210_20260104_-_2265569.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpyteslf4z",
+      "name": "tmprn_ex2ua",
       "features": [
         {
           "type": "Feature",
@@ -53078,7 +53530,7 @@
     "filename": "CSLB_117_CSLBPF1000671125117_20260104_-_2265585.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp0dr1a635",
+      "name": "tmpzyq864d2",
       "features": [
         {
           "type": "Feature",
@@ -53156,7 +53608,7 @@
     "filename": "CSLB_107_CSLBPF100067185107_20260104_-_2265555.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp7j9wjnns",
+      "name": "tmpzz60xarb",
       "features": [
         {
           "type": "Feature",
@@ -53480,7 +53932,7 @@
     "filename": "CSLB_104_CSLBPF100067181104_20260104_-_2265622.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpin15a7ep",
+      "name": "tmp7isid7f0",
       "features": [
         {
           "type": "Feature",
@@ -53582,7 +54034,7 @@
     "filename": "CSLB_620_CSLBPF1000671116620_20260118_-_2297936.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpr5_jvw11",
+      "name": "tmpik_5c1qx",
       "features": [
         {
           "type": "Feature",
@@ -53684,7 +54136,7 @@
     "filename": "PULH_803_PULHPH000015339803_20260503_-_2356264.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp59ostymh",
+      "name": "tmpu7roq_2l",
       "features": [
         {
           "type": "Feature",
@@ -54226,7 +54678,7 @@
     "filename": "PULH_801_PULHPH00001538801_20260503_-_2356332.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpqpkjt50k",
+      "name": "tmp2urhw_co",
       "features": [
         {
           "type": "Feature",
@@ -54388,7 +54840,7 @@
     "filename": "CSLB_112_CSLBPF1000671117112_20260104_-_2265561.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpekgc0xsd",
+      "name": "tmpoxh69ml8",
       "features": [
         {
           "type": "Feature",
@@ -54562,7 +55014,7 @@
     "filename": "CSLB_113_CSLBPF1000671124113_20260104_-_2265583.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_abkeh05",
+      "name": "tmp_ll7v3c9",
       "features": [
         {
           "type": "Feature",
@@ -54834,7 +55286,7 @@
     "filename": "CSLB_1S_CSLBPF1000671201S_20260104_-_2265627.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp0m52fcys",
+      "name": "tmp00bs8sxu",
       "features": [
         {
           "type": "Feature",
@@ -55056,7 +55508,7 @@
     "filename": "CSLB_643_CSLBPF1000671106643_20260104_-_2265532.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_c41hnj6",
+      "name": "tmpmdzv6js3",
       "features": [
         {
           "type": "Feature",
@@ -55362,7 +55814,7 @@
     "filename": "PULH_K_PULHPH0000153108K_20260503_-_2356286.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwarkg82o",
+      "name": "tmpuqij2wun",
       "features": [
         {
           "type": "Feature",
@@ -55932,7 +56384,7 @@
     "filename": "CSLB_604_CSLBPF100067188604_20260104_-_2265524.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpiyz6zbjy",
+      "name": "tmphyvj12kl",
       "features": [
         {
           "type": "Feature",
@@ -56176,7 +56628,7 @@
     "filename": "CSLB_38_CSLBPF10006719438_20260104_-_2265553.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptlbgzpe5",
+      "name": "tmp5bmhekri",
       "features": [
         {
           "type": "Feature",
@@ -56396,7 +56848,7 @@
     "filename": "CSLB_583_CSLBPF100067186583_20260104_-_2265541.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptgadv8xp",
+      "name": "tmpuceq75pl",
       "features": [
         {
           "type": "Feature",
@@ -56498,7 +56950,7 @@
     "filename": "OXBC_21_OXBCPH00057279721_20260503_-_2350526.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpzwlhuv76",
+      "name": "tmp2ftuex9_",
       "features": [
         {
           "type": "Feature",
@@ -56658,7 +57110,7 @@
     "filename": "CSLB_79_CSLBPF100067112279_20260104_-_2265578.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpzoj20vx0",
+      "name": "tmpbo17t28_",
       "features": [
         {
           "type": "Feature",
@@ -56830,7 +57282,7 @@
     "filename": "PULH_855_PULHPH000015380855_20260503_-_2356277.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp5hsr2g11",
+      "name": "tmp09b42trb",
       "features": [
         {
           "type": "Feature",
@@ -57008,7 +57460,7 @@
     "filename": "CSLB_102_CSLBPF100067113102_20260104_-_2265662.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp4s_a_nxp",
+      "name": "tmpfiue9qbo",
       "features": [
         {
           "type": "Feature",
@@ -57336,7 +57788,7 @@
     "filename": "PULH_656_PULHPH000015363656_20260503_-_2356265.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp8zn6jf8j",
+      "name": "tmpkbfyzkbb",
       "features": [
         {
           "type": "Feature",
@@ -57682,7 +58134,7 @@
     "filename": "CSLB_607_CSLBPF1000671104607_20260104_-_2265530.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpz33084b9",
+      "name": "tmp80nibi4a",
       "features": [
         {
           "type": "Feature",
@@ -58074,7 +58526,7 @@
     "filename": "CSLB_190_CSLBPF1000671121190_20260104_-_2265565.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpss3rvs9r",
+      "name": "tmpwkz40xy6",
       "features": [
         {
           "type": "Feature",
@@ -58164,7 +58616,7 @@
     "filename": "PULH_832_PULHPH000015345832_20260503_-_2356263.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxg9wl0bd",
+      "name": "tmp1yav_mv1",
       "features": [
         {
           "type": "Feature",
@@ -58328,7 +58780,7 @@
     "filename": "CSLB_127_CSLBPF1000671108127_20260104_-_2265548.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpt8_5zadc",
+      "name": "tmp0ytf8ou3",
       "features": [
         {
           "type": "Feature",
@@ -58470,7 +58922,7 @@
     "filename": "CSLB_103_CSLBPF10006712103_20260104_-_2265638.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpo2vz76gb",
+      "name": "tmpiw0qxh1n",
       "features": [
         {
           "type": "Feature",
@@ -58564,7 +59016,7 @@
     "filename": "CSLB_27_CSLBPF10006716127_20260104_-_2265523.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpksxw655i",
+      "name": "tmpm4gl9y6k",
       "features": [
         {
           "type": "Feature",
@@ -58714,7 +59166,7 @@
     "filename": "PULH_608_PULHPH000015378608_20260503_-_2356280.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpov2t01hn",
+      "name": "tmpcs0ryuhg",
       "features": [
         {
           "type": "Feature",
@@ -58952,7 +59404,7 @@
     "filename": "CSLB_C15_CSLBPF100067111315_20260104_-_2265740.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpbxwju84b",
+      "name": "tmpr_hl0p0d",
       "features": [
         {
           "type": "Feature",
@@ -59038,7 +59490,7 @@
     "filename": "ARHE_6300_ARHEPF111644221010136300_20260412_-_2340841.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpiexvd75z",
+      "name": "tmplxtsebtj",
       "features": [
         {
           "type": "Feature",
@@ -59104,7 +59556,7 @@
     "filename": "ARHE_6725_ARHEPF1116442120725_20260412_-_2341010.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmprwamx5ei",
+      "name": "tmp9z9ej6ju",
       "features": [
         {
           "type": "Feature",
@@ -59442,7 +59894,7 @@
     "filename": "REDE_380_REDEPF11281299380_20200831_-_827485.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpkzn0r7sa",
+      "name": "tmpdbjyxkw_",
       "features": [
         {
           "type": "Feature",
@@ -59640,7 +60092,7 @@
     "filename": "REDE_X500_REDEPF112812953X500_20250414_-_2189106.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpu8dygq64",
+      "name": "tmpx_tej37o",
       "features": [
         {
           "type": "Feature",
@@ -59734,7 +60186,7 @@
     "filename": "REDE_61C_REDEPF11281293261_20250901_-_2186610.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp85ewuzn7",
+      "name": "tmpupuegjbb",
       "features": [
         {
           "type": "Feature",
@@ -59848,7 +60300,7 @@
     "filename": "REDE_X61_REDEPF112812945X61_20210927_-_1274646.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptm6thezt",
+      "name": "tmp97mh4406",
       "features": [
         {
           "type": "Feature",
@@ -60014,7 +60466,7 @@
     "filename": "REDE_68_REDEPF11281292268_20190625_-_581231.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxorc0bl_",
+      "name": "tmprsy_fjf3",
       "features": [
         {
           "type": "Feature",
@@ -60160,7 +60612,7 @@
     "filename": "REDE_34_REDEPF11281294734_20230909_-_1716648.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpyasjlgz8",
+      "name": "tmp7afq_y2c",
       "features": [
         {
           "type": "Feature",
@@ -60246,7 +60698,7 @@
     "filename": "REDE_354_REDEPF112812934354_20200323_-_784320.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptsvfcfeg",
+      "name": "tmph4log5vm",
       "features": [
         {
           "type": "Feature",
@@ -60396,7 +60848,7 @@
     "filename": "REDE_334_REDEPF11281293334_20250103_-_2035968.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpeemagte0",
+      "name": "tmpboi5g_c8",
       "features": [
         {
           "type": "Feature",
@@ -60482,7 +60934,7 @@
     "filename": "REDE_88_REDEPF11281294688_20210927_-_1275203.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpd52c_uu9",
+      "name": "tmpiuc_olwc",
       "features": [
         {
           "type": "Feature",
@@ -60604,7 +61056,7 @@
     "filename": "REDE_178_REDEPF112812943178_20210903_-_1255564.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp134azl53",
+      "name": "tmpkk8w8t8q",
       "features": [
         {
           "type": "Feature",
@@ -60690,7 +61142,7 @@
     "filename": "UNIB_843_UNIBPF000144921010112843_20260104_-_2290921.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpsg5ykxgs",
+      "name": "tmp52b4b7kr",
       "features": [
         {
           "type": "Feature",
@@ -60808,7 +61260,7 @@
     "filename": "UNIB_635_UNIBPF000144921010092635_20260511_-_2331279.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpgo9gxy7r",
+      "name": "tmp3pdllzaf",
       "features": [
         {
           "type": "Feature",
@@ -60934,7 +61386,7 @@
     "filename": "UNIB_243_UNIBPF000144921010111243_20260104_-_2290932.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpsq_ce6f_",
+      "name": "tmpraem9p2w",
       "features": [
         {
           "type": "Feature",
@@ -61252,7 +61704,7 @@
     "filename": "CBBH_92LU_CBBHPF00022802101029192_20260316_-_2321320.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpm7bgeql1",
+      "name": "tmpgrcdny_q",
       "features": [
         {
           "type": "Feature",
@@ -61577,10 +62029,10 @@
   },
   {
     "dataset_id": 16194,
-    "filename": "ARBB_8X14_ARBBPF0000508610X14_20260222_-_2310807.xml",
+    "filename": "ARBB_8X14_ARBBPF0000508610X14_20260531_-_2365238.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpe_kathzq",
+      "name": "tmp4hojt2tb",
       "features": [
         {
           "type": "Feature",
@@ -61600,8 +62052,8 @@
                 52.036235
               ],
               [
-                -0.742603,
-                52.027886
+                -0.744865,
+                52.030905
               ],
               [
                 -0.740792,
@@ -61612,12 +62064,20 @@
                 52.016899
               ],
               [
-                -0.730188,
-                52.008728
+                -0.726286,
+                52.00196
               ],
               [
-                -0.71731,
-                51.996414
+                -0.732897,
+                51.9955
+              ],
+              [
+                -0.727579,
+                51.996427
+              ],
+              [
+                -0.718222,
+                51.995102
               ],
               [
                 -0.724389,
@@ -61636,56 +62096,8 @@
                 51.981044
               ],
               [
-                -0.734278,
-                51.971162
-              ],
-              [
-                -0.696686,
-                51.903952
-              ],
-              [
-                -0.706692,
-                51.89876
-              ],
-              [
-                -0.715444,
-                51.896635
-              ],
-              [
-                -0.756023,
-                51.868712
-              ],
-              [
-                -0.773595,
-                51.843163
-              ],
-              [
-                -0.767529,
-                51.824852
-              ],
-              [
-                -0.773847,
-                51.824099
-              ],
-              [
-                -0.793607,
-                51.815119
-              ],
-              [
-                -0.801961,
-                51.815205
-              ],
-              [
-                -0.816306,
-                51.819171
-              ],
-              [
-                -0.81822,
-                51.816997
-              ],
-              [
-                -0.81367,
-                51.815482
+                -0.731327,
+                51.97514
               ]
             ]
           }
@@ -61700,68 +62112,28 @@
             "type": "LineString",
             "coordinates": [
               [
-                -0.81367,
-                51.815482
+                -0.731327,
+                51.97514
               ],
               [
-                -0.793663,
-                51.81521
+                -0.738382,
+                51.976832
               ],
               [
-                -0.771962,
-                51.824783
+                -0.742867,
+                51.972927
               ],
               [
-                -0.772127,
-                51.829206
-              ],
-              [
-                -0.768988,
-                51.830167
-              ],
-              [
-                -0.773894,
-                51.843886
-              ],
-              [
-                -0.768548,
-                51.8531
-              ],
-              [
-                -0.755865,
-                51.869142
-              ],
-              [
-                -0.714936,
-                51.897124
-              ],
-              [
-                -0.706748,
-                51.89886
-              ],
-              [
-                -0.696715,
-                51.904036
-              ],
-              [
-                -0.734193,
-                51.97155
-              ],
-              [
-                -0.733379,
-                51.973406
+                -0.738837,
+                51.97083
               ],
               [
                 -0.720216,
                 51.976234
               ],
               [
-                -0.721925,
-                51.979624
-              ],
-              [
-                -0.725057,
-                51.981096
+                -0.725288,
+                51.982009
               ],
               [
                 -0.719832,
@@ -61772,8 +62144,20 @@
                 51.990127
               ],
               [
-                -0.717665,
-                51.996238
+                -0.718889,
+                51.994669
+              ],
+              [
+                -0.727752,
+                51.996483
+              ],
+              [
+                -0.732897,
+                51.9955
+              ],
+              [
+                -0.72666,
+                52.002126
               ],
               [
                 -0.730493,
@@ -61786,10 +62170,6 @@
               [
                 -0.740163,
                 52.022394
-              ],
-              [
-                -0.742769,
-                52.02769
               ],
               [
                 -0.746815,
@@ -61818,7 +62198,7 @@
     "filename": "PULH_SW418S_PULHPH0000153123418S_20260331_-_2331039.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpd8vaj15y",
+      "name": "tmpv1uzuzv9",
       "features": [
         {
           "type": "Feature",
@@ -61900,7 +62280,7 @@
     "filename": "PULH_C65_PULHPH0000153115C65_20260503_-_2356278.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpu3fq2raw",
+      "name": "tmp5do0mfxt",
       "features": [
         {
           "type": "Feature",
@@ -62090,7 +62470,7 @@
     "filename": "PULH_C68_PULHPH0000153112C68_20260503_-_2356268.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpvjyga96w",
+      "name": "tmpqruk2qes",
       "features": [
         {
           "type": "Feature",
@@ -62196,7 +62576,7 @@
     "filename": "CSLB_458_CSLBPF1000671137458_20260104_-_2265594.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp1hpqpmna",
+      "name": "tmp1mz5orbq",
       "features": [
         {
           "type": "Feature",
@@ -62286,7 +62666,7 @@
     "filename": "PULH_C52_PULHPH0000153121C52_20260503_-_2356296.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpgn4h4ju0",
+      "name": "tmpyhjywwer",
       "features": [
         {
           "type": "Feature",
@@ -62472,7 +62852,7 @@
     "filename": "PULH_C54_PULHPH0000153120C54_20260503_-_2356294.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp7coyf4bt",
+      "name": "tmpm9zetkfm",
       "features": [
         {
           "type": "Feature",
@@ -62574,7 +62954,7 @@
     "filename": "CSLB_SW625_CSLBPF1000671128625_20260104_-_2265580.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpt8x_dxp6",
+      "name": "tmp9gwlucz3",
       "features": [
         {
           "type": "Feature",
@@ -62712,7 +63092,7 @@
     "filename": "CSLB_681_CSLBPF1000671140681_20260104_-_2266122.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp41_rfn2p",
+      "name": "tmp2atzksc0",
       "features": [
         {
           "type": "Feature",
@@ -62802,7 +63182,7 @@
     "filename": "OXBC_CS1_OXBCPH0005727100CS1_20260328_-_2331494.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmplne50_om",
+      "name": "tmpeahbt__8",
       "features": [
         {
           "type": "Feature",
@@ -62884,7 +63264,7 @@
     "filename": "PULH_C60_PULHPH0000153124C60_20260503_-_2356279.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmphierdthu",
+      "name": "tmp0xqql6_d",
       "features": [
         {
           "type": "Feature",
@@ -63146,7 +63526,7 @@
     "filename": "PULH_C69_PULHPH0000153111C69_20260503_-_2356267.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmperta7q2i",
+      "name": "tmpyr80yyvw",
       "features": [
         {
           "type": "Feature",
@@ -63376,7 +63756,7 @@
     "filename": "THTR_H2_THTRPH0007184174H2_20260222_-_2310336.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmps_thslo2",
+      "name": "tmpr2r9svhb",
       "features": [
         {
           "type": "Feature",
@@ -63546,7 +63926,7 @@
     "filename": "OXBC_20_OXBCPH00057279920_20260503_-_2350542.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxfy2ucky",
+      "name": "tmpc9ay_k2p",
       "features": [
         {
           "type": "Feature",
@@ -63696,7 +64076,7 @@
     "filename": "CSLB_160_CSLBPF1000671129160_20260104_-_2265595.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6ymusek_",
+      "name": "tmph41m6i0g",
       "features": [
         {
           "type": "Feature",
@@ -63874,7 +64254,7 @@
     "filename": "PULH_C64_PULHPH0000153116C64_20260503_-_2356275.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpbk2k1nbx",
+      "name": "tmpy3jha6og",
       "features": [
         {
           "type": "Feature",
@@ -63980,7 +64360,7 @@
     "filename": "PULH_C51_PULHPH0000153122C51_20260503_-_2356304.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptsuf4dl0",
+      "name": "tmpyjp_6z60",
       "features": [
         {
           "type": "Feature",
@@ -64158,7 +64538,7 @@
     "filename": "THTR_SWDS1_THTRPH0007184173DS1_20260416_-_2345584.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwk8z5z6f",
+      "name": "tmpl2waaqm7",
       "features": [
         {
           "type": "Feature",
@@ -64256,7 +64636,7 @@
     "filename": "CSLB_SW624_CSLBPF1000671127624_20260104_-_2265579.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp89w8yrk_",
+      "name": "tmps965wvg9",
       "features": [
         {
           "type": "Feature",
@@ -64442,7 +64822,7 @@
     "filename": "PULH_C63_PULHPH0000153117C63_20260503_-_2356273.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpemsapnkd",
+      "name": "tmpqa7tuj3v",
       "features": [
         {
           "type": "Feature",
@@ -64536,7 +64916,7 @@
     "filename": "PULH_C59X_PULHPH0000153119C59X_20260503_-_2356289.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp92zp92r_",
+      "name": "tmpkfyxb93r",
       "features": [
         {
           "type": "Feature",
@@ -64658,7 +65038,7 @@
     "filename": "PULH_C67_PULHPH0000153113C67_20260503_-_2356269.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpiayl5i4w",
+      "name": "tmp2a5pnalq",
       "features": [
         {
           "type": "Feature",
@@ -64788,7 +65168,7 @@
     "filename": "PULH_C77_PULHPH0000153125C77_20260503_-_2356295.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxm0dv5yr",
+      "name": "tmpo3dpnlhg",
       "features": [
         {
           "type": "Feature",
@@ -64910,7 +65290,7 @@
     "filename": "RRTR_17_RRTRPF000149314817_20241028_-_2290192.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpmg1at25t",
+      "name": "tmpfshguh8j",
       "features": [
         {
           "type": "Feature",
@@ -65056,7 +65436,7 @@
     "filename": "RRTR_165_RRTRPF0001493183165_20250511_-_2196667.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp2l9ufux8",
+      "name": "tmpowj0h999",
       "features": [
         {
           "type": "Feature",
@@ -65290,7 +65670,7 @@
     "filename": "RRTR_275_RRTRPF0001493186275_20250811_-_2189388.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpc6wvyg4g",
+      "name": "tmpkn08l573",
       "features": [
         {
           "type": "Feature",
@@ -65404,7 +65784,7 @@
     "filename": "RRTR_14E_RRTRPF000149318814E_20251103_-_2290078.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdkgw7bb3",
+      "name": "tmpu6wlwyh1",
       "features": [
         {
           "type": "Feature",
@@ -65474,7 +65854,7 @@
     "filename": "RRTR_150_RRTRPF0001493184150_20250831_-_2290080.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp8g_4obe8",
+      "name": "tmpffeqresh",
       "features": [
         {
           "type": "Feature",
@@ -65692,7 +66072,7 @@
     "filename": "RRTR_108_RRTRPF0001493181108_20251013_-_2290070.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpw27orf1n",
+      "name": "tmp6wz1nl52",
       "features": [
         {
           "type": "Feature",
@@ -65926,7 +66306,7 @@
     "filename": "RRTR_B3_RRTRPF0001493179B3_20250224_-_2063549.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpb3z7g0sf",
+      "name": "tmppv5gl1_9",
       "features": [
         {
           "type": "Feature",
@@ -66009,10 +66389,10 @@
   },
   {
     "dataset_id": 18064,
-    "filename": "800-None--SCOX-OXHR-2024-01-01-TUBE_26-05-02_[800_900]_-_JW_Sync__SCOX_PH0005863_100_20260503-BODS_V1_1.xml",
+    "filename": "800-None--SCOX-OXHR-2024-01-01-OX_26-05-31_Tube__SCOX_PH0005863_100_20260531-BODS_V1_1.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmppzfdpqmm",
+      "name": "tmpa0_avuqv",
       "features": [
         {
           "type": "Feature",
@@ -66199,10 +66579,10 @@
   },
   {
     "dataset_id": 18064,
-    "filename": "25-None--SCOX-OXHR-2024-01-01-OX_26-02-22_[Outstations]__SCOX_PH0005863_101_20260308-BODS_V1_1.xml",
+    "filename": "25-None--SCOX-OXHR-2024-01-01-OX_26-05-31_[East_Oxford]_d__SCOX_PH0005863_101_20260531-BODS_V1_1.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpye043m4r",
+      "name": "tmpyobf7f14",
       "features": [
         {
           "type": "Feature",
@@ -66214,48 +66594,132 @@
             "type": "LineString",
             "coordinates": [
               [
-                -1.26246,
-                51.92887
+                -1.15345,
+                51.89796
               ],
               [
-                -1.24259,
-                51.92706
+                -1.1502,
+                51.89703
               ],
               [
-                -1.23817,
-                51.91585
+                -1.14781,
+                51.89371
               ],
               [
-                -1.23227,
-                51.91068
+                -1.14974,
+                51.89281
               ],
               [
-                -1.22476,
-                51.90727
+                -1.14788,
+                51.89279
               ],
               [
-                -1.21126,
-                51.90704
+                -1.14592,
+                51.88878
               ],
               [
-                -1.15978,
-                51.89571
+                -1.14215,
+                51.88724
               ],
               [
-                -1.15562,
-                51.90086
+                -1.14191,
+                51.88647
               ],
               [
-                -1.15186,
-                51.89663
+                -1.14195,
+                51.8863
               ],
               [
-                -1.1486,
-                51.89534
+                -1.14306,
+                51.8859
               ],
               [
-                -1.1497,
-                51.89289
+                -1.14435,
+                51.8846
+              ],
+              [
+                -1.14352,
+                51.88436
+              ],
+              [
+                -1.14331,
+                51.88561
+              ],
+              [
+                -1.14306,
+                51.8859
+              ],
+              [
+                -1.14293,
+                51.88597
+              ],
+              [
+                -1.14271,
+                51.88627
+              ],
+              [
+                -1.14271,
+                51.88657
+              ],
+              [
+                -1.1421,
+                51.88667
+              ],
+              [
+                -1.14191,
+                51.88647
+              ],
+              [
+                -1.14176,
+                51.88584
+              ],
+              [
+                -1.14119,
+                51.88545
+              ],
+              [
+                -1.13282,
+                51.8813
+              ],
+              [
+                -1.12899,
+                51.88027
+              ],
+              [
+                -1.12691,
+                51.87591
+              ],
+              [
+                -1.12109,
+                51.87253
+              ],
+              [
+                -1.12204,
+                51.86592
+              ],
+              [
+                -1.11915,
+                51.8609
+              ],
+              [
+                -1.11332,
+                51.85658
+              ],
+              [
+                -1.09978,
+                51.85583
+              ],
+              [
+                -1.09049,
+                51.85322
+              ],
+              [
+                -1.09005,
+                51.85067
+              ],
+              [
+                -1.09415,
+                51.85063
               ]
             ]
           }
@@ -66272,7 +66736,7 @@
     "filename": "PULH_SW83_PULHPH000015312883_20260503_-_2356299.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpishug7vn",
+      "name": "tmpgu59ef6s",
       "features": [
         {
           "type": "Feature",
@@ -66342,7 +66806,7 @@
     "filename": "OXBC_O43_OXBCPH000572710243_20260503_-_2350520.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmphszybtss",
+      "name": "tmpqg3_3_gi",
       "features": [
         {
           "type": "Feature",
@@ -66424,7 +66888,7 @@
     "filename": "PULH_X52_PULHPH0000153127X52_20260503_-_2356303.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdzd50d95",
+      "name": "tmptg5h_58g",
       "features": [
         {
           "type": "Feature",
@@ -66670,7 +67134,7 @@
     "filename": "RRTR_24_RRTRPF000149318024_20250331_-_2080617.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptw7f6syl",
+      "name": "tmpip0k2ef2",
       "features": [
         {
           "type": "Feature",
@@ -66744,7 +67208,7 @@
     "filename": "RRTR_25_RRTRPF000149315725_20240916_-_2290274.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpr2bikqjs",
+      "name": "tmplwqm1z0g",
       "features": [
         {
           "type": "Feature",
@@ -66810,7 +67274,7 @@
     "filename": "MK1_-MK1--SCCM-EABE-2026-05-31-LIVE_BD_2026_05_31_(1)__SCCM_PF0000459_327_20260531-BODS_V1_1.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmprzmlanxj",
+      "name": "tmp8z970w44",
       "features": [
         {
           "type": "Feature",
@@ -67230,7 +67694,7 @@
     "filename": "MK1-MK1--SCCM-EABE-2026-05-31-LIVE_BD_2026_05_31_(1)__SCCM_PF0000459_326_20260531-BODS_V1_1.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpo_qu8eda",
+      "name": "tmp0jtz1dp9",
       "features": [
         {
           "type": "Feature",
@@ -67516,7 +67980,7 @@
     "filename": "PULH_40_PULHPH000015310940_20260503_-_2356329.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpln8iyoiq",
+      "name": "tmprpmjt3de",
       "features": [
         {
           "type": "Feature",
@@ -67599,10 +68063,10 @@
   },
   {
     "dataset_id": 18512,
-    "filename": "7-None--SCCM-CACA-2026-04-12-LIVE_CB_2026_04_12_-_School_back_+_t__SCCM_PF0000459_40_20260508-BODS_V1_1.xml",
+    "filename": "7-None--SCCM-CACA-2026-05-31-Live_CB_2026_05_31_-_New_BODS_file__SCCM_PF0000459_40_20260531-BODS_V1_1.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6ll9m8e0",
+      "name": "tmp299m2hoy",
       "features": [
         {
           "type": "Feature",
@@ -67614,152 +68078,112 @@
             "type": "LineString",
             "coordinates": [
               [
-                0.172782,
-                52.113104
-              ],
-              [
-                0.16799,
-                52.11678
-              ],
-              [
-                0.16978,
-                52.12118
-              ],
-              [
-                0.16908,
-                52.12407
-              ],
-              [
-                0.17283,
-                52.12459
-              ],
-              [
-                0.1718,
-                52.12684
-              ],
-              [
-                0.16794,
-                52.12631
-              ],
-              [
-                0.16574,
-                52.1293
-              ],
-              [
-                0.15357,
-                52.1352
-              ],
-              [
-                0.1479,
-                52.14332
-              ],
-              [
-                0.13831,
-                52.1472
-              ],
-              [
-                0.13513,
-                52.15225
-              ],
-              [
-                0.12992,
-                52.15524
-              ],
-              [
-                0.11783,
-                52.1673
-              ],
-              [
-                0.1205,
-                52.16851
-              ],
-              [
-                0.12459,
-                52.16664
-              ],
-              [
-                0.13302,
-                52.16908
-              ],
-              [
-                0.14131,
-                52.17233
-              ],
-              [
-                0.14122,
-                52.17359
-              ],
-              [
-                0.14466,
-                52.17518
-              ],
-              [
-                0.14383,
-                52.17618
-              ],
-              [
-                0.14436,
-                52.17625
-              ],
-              [
-                0.14458,
-                52.17641
-              ],
-              [
-                0.14464,
-                52.17646
-              ],
-              [
-                0.14466,
-                52.1766
-              ],
-              [
-                0.14491,
-                52.17673
-              ],
-              [
-                0.14563,
-                52.17647
-              ],
-              [
-                0.144725,
-                52.175847
-              ],
-              [
-                0.144725,
-                52.175847
-              ],
-              [
-                0.144549,
-                52.176502
-              ],
-              [
-                0.14461,
-                52.17692
-              ],
-              [
-                0.1337,
-                52.19239
-              ],
-              [
-                0.13695,
-                52.19426
+                0.12328,
+                52.20417
               ],
               [
                 0.13127,
                 52.19502
               ],
               [
-                0.12481,
-                52.20215
+                0.137,
+                52.194284
               ],
               [
-                0.12735,
-                52.20415
+                0.1337,
+                52.19239
               ],
               [
-                0.12328,
-                52.20417
+                0.14216,
+                52.17942
+              ],
+              [
+                0.14563,
+                52.17647
+              ],
+              [
+                0.14131,
+                52.17233
+              ],
+              [
+                0.13302,
+                52.16908
+              ],
+              [
+                0.12459,
+                52.16664
+              ],
+              [
+                0.12066,
+                52.16811
+              ],
+              [
+                0.11783,
+                52.1673
+              ],
+              [
+                0.12992,
+                52.15524
+              ],
+              [
+                0.13513,
+                52.15225
+              ],
+              [
+                0.13831,
+                52.1472
+              ],
+              [
+                0.1479,
+                52.14332
+              ],
+              [
+                0.15234,
+                52.137
+              ],
+              [
+                0.16574,
+                52.1293
+              ],
+              [
+                0.16794,
+                52.12631
+              ],
+              [
+                0.17454,
+                52.12713
+              ],
+              [
+                0.17516,
+                52.1256
+              ],
+              [
+                0.16917,
+                52.124
+              ],
+              [
+                0.16978,
+                52.12118
+              ],
+              [
+                0.16799,
+                52.11678
+              ],
+              [
+                0.17215,
+                52.11339
+              ],
+              [
+                0.17701,
+                52.10509
+              ],
+              [
+                0.18775,
+                52.10953
+              ],
+              [
+                0.18423,
+                52.111
               ]
             ]
           }
@@ -67776,7 +68200,7 @@
     "filename": "TMSB_1-21_TMSBPF20061303221_20230423_-_1629373.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpvzivsroj",
+      "name": "tmp6k38jcsy",
       "features": [
         {
           "type": "Feature",
@@ -67862,7 +68286,7 @@
     "filename": "TMSB_4-SB11_TMSBPF200613021010064SB11_20240728_-_1911945.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpn26w7moc",
+      "name": "tmpey0pw61o",
       "features": [
         {
           "type": "Feature",
@@ -67948,7 +68372,7 @@
     "filename": "TMSB_4-24_TMSBPF20061304124_20260105_-_1911844.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp0dysu36k",
+      "name": "tmpa8hd19cj",
       "features": [
         {
           "type": "Feature",
@@ -68034,7 +68458,7 @@
     "filename": "TMSB_4-H4_TMSBPF200613021010060H4_20240728_-_1911927.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpqd0b9jsn",
+      "name": "tmphvro5kqx",
       "features": [
         {
           "type": "Feature",
@@ -68119,7 +68543,7 @@
       ]
     },
     "operator_name": "Transport Made Simple",
-    "bus_number": "H4",
+    "bus_number": "H3",
     "line_name": "H4",
     "service_code": "PF2006130:21010060"
   },
@@ -68128,7 +68552,7 @@
     "filename": "TMSB_4-35B_TMSBPF20061302101005235B_20240907_-_1911961.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpi5028d3e",
+      "name": "tmpsv0onzxu",
       "features": [
         {
           "type": "Feature",
@@ -68221,7 +68645,7 @@
       ]
     },
     "operator_name": "Transport Made Simple",
-    "bus_number": "35C",
+    "bus_number": "35",
     "line_name": "35B",
     "service_code": "PF2006130:21010052"
   },
@@ -68230,7 +68654,7 @@
     "filename": "TMSB_4-37X_TMSBPF20061302101005437X_20250901_-_2155536.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdrmeydts",
+      "name": "tmpq8me4c6f",
       "features": [
         {
           "type": "Feature",
@@ -68300,7 +68724,7 @@
     "filename": "TMSB_4-10_TMSBPF20061302510_20230724_-_1684357.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpfu1kfn25",
+      "name": "tmp34hx3ql9",
       "features": [
         {
           "type": "Feature",
@@ -68466,7 +68890,7 @@
     "filename": "TMSB_4-16_TMSBPF2006130616_20260105_-_1884187.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptjt2u7lw",
+      "name": "tmpvivl1vjl",
       "features": [
         {
           "type": "Feature",
@@ -68608,7 +69032,7 @@
     "filename": "TMSB_4-12_TMSBPF20061305412_20250901_-_2173964.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpzw53dqfn",
+      "name": "tmpgewe974n",
       "features": [
         {
           "type": "Feature",
@@ -68710,7 +69134,7 @@
     "filename": "TMSB_4-23_TMSBPF20061304823_20241202_-_2249592.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6ln5dvz5",
+      "name": "tmpk7wmcdcu",
       "features": [
         {
           "type": "Feature",
@@ -68836,7 +69260,7 @@
     "filename": "TMSB_4-27_TMSBPF20061307327_20251201_-_2252445.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpje2j931b",
+      "name": "tmp1hif7tg8",
       "features": [
         {
           "type": "Feature",
@@ -69054,7 +69478,7 @@
     "filename": "TMSB_4-18_TMSBPF20061303518_20250901_-_2249395.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdhrb6c3a",
+      "name": "tmprkkahuut",
       "features": [
         {
           "type": "Feature",
@@ -69144,7 +69568,7 @@
     "filename": "TMSB_4-36_TMSBPF20061302101005336_20250721_-_2250103.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpi_enqsa9",
+      "name": "tmpclig5ism",
       "features": [
         {
           "type": "Feature",
@@ -69218,7 +69642,7 @@
     "filename": "TMSB_4-8A_TMSBPF2006130668A_20250616_-_2136044.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpt8qgshf6",
+      "name": "tmpaq89akg1",
       "features": [
         {
           "type": "Feature",
@@ -69300,7 +69724,7 @@
     "filename": "TMSB_4-SB6_TMSBPF200613021010063SB6_20240728_-_1911944.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpung_gl25",
+      "name": "tmp5jdkty1k",
       "features": [
         {
           "type": "Feature",
@@ -69454,7 +69878,7 @@
     "filename": "TMSB_4-28_TMSBPF20061304928_20250112_-_1911882.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpx4yqhe9_",
+      "name": "tmpc1qyaq82",
       "features": [
         {
           "type": "Feature",
@@ -69632,7 +70056,7 @@
     "filename": "TMSB_4-375_TMSBPF200613053375_20250111_-_2024651.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp7ywvh5tc",
+      "name": "tmphk72ejnj",
       "features": [
         {
           "type": "Feature",
@@ -69854,7 +70278,7 @@
     "filename": "TMSB_4-31_TMSBPF2006130931_20241207_-_1781589.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_h2a8zr1",
+      "name": "tmpwfce7f2c",
       "features": [
         {
           "type": "Feature",
@@ -69964,7 +70388,7 @@
     "filename": "TMSB_4-333_TMSBPF200613064333_20260105_-_2250077.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpdnh_8cn9",
+      "name": "tmpo9cl1h1o",
       "features": [
         {
           "type": "Feature",
@@ -70082,7 +70506,7 @@
     "filename": "TMSB_4-407_TMSBPF200613072407_20251201_-_2252340.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp03pp3aod",
+      "name": "tmpuinh5ygx",
       "features": [
         {
           "type": "Feature",
@@ -70204,7 +70628,7 @@
     "filename": "TMSB_4-1_TMSBPF2006130421_20241207_-_2249248.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp1mdqie1h",
+      "name": "tmpycd0466b",
       "features": [
         {
           "type": "Feature",
@@ -70374,7 +70798,7 @@
     "filename": "TMSB_4-H1_TMSBPF200613021010058H1_20240728_-_1911941.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmppyno5nbe",
+      "name": "tmp7ae0pd_u",
       "features": [
         {
           "type": "Feature",
@@ -70476,7 +70900,7 @@
     "filename": "TMSB_4-25_TMSBPF20061306925_20250901_-_2186248.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpd75gc3ms",
+      "name": "tmp_07l65rm",
       "features": [
         {
           "type": "Feature",
@@ -70562,7 +70986,7 @@
     "filename": "TMSB_4-HL1_TMSBPF200613021010056HL1_20260105_-_2254610.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpzf11gf2o",
+      "name": "tmpd25y03k3",
       "features": [
         {
           "type": "Feature",
@@ -70664,7 +71088,7 @@
     "filename": "TMSB_4-305_TMSBPF200613050305_20240728_-_2249868.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpd0hfki8y",
+      "name": "tmpvz15an2j",
       "features": [
         {
           "type": "Feature",
@@ -70774,7 +71198,7 @@
     "filename": "TMSB_1-ND_TMSBPF200613022ND_20260316_-_2304862.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp2nam6ecw",
+      "name": "tmponkbnpud",
       "features": [
         {
           "type": "Feature",
@@ -70920,7 +71344,7 @@
     "filename": "TMSB_4-5_TMSBPF2006130455_20250901_-_2250230.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp6ue4c325",
+      "name": "tmpnng3uh0l",
       "features": [
         {
           "type": "Feature",
@@ -70986,7 +71410,7 @@
     "filename": "TMSB_4-2_TMSBPF2006130432_20260105_-_1911895.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpqbcvqcel",
+      "name": "tmpaztm9itk",
       "features": [
         {
           "type": "Feature",
@@ -71116,7 +71540,7 @@
     "filename": "TMSB_4-331_TMSBPF200613068331_20260105_-_2173959.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpwev3srp4",
+      "name": "tmpcs7wsw3f",
       "features": [
         {
           "type": "Feature",
@@ -71210,7 +71634,7 @@
     "filename": "TMSB_4-325_TMSBPF200613051325_20240728_-_1911952.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpik8w4gho",
+      "name": "tmpm9ab5yb8",
       "features": [
         {
           "type": "Feature",
@@ -71340,7 +71764,7 @@
     "filename": "TMSB_4-33_TMSBPF20061302101006533_20260319_-_2324650.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpg3dh23qh",
+      "name": "tmp6i_dm0fx",
       "features": [
         {
           "type": "Feature",
@@ -71442,7 +71866,7 @@
     "filename": "TMSB_4-242_TMSBPF200613021010062242_20250901_-_1911953.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmptz4vryv3",
+      "name": "tmpjo9oopvc",
       "features": [
         {
           "type": "Feature",
@@ -71604,7 +72028,7 @@
     "filename": "TMSB_4-306_TMSBPF200613052306_20240902_20260731_1927874.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp2w6rp_q7",
+      "name": "tmpcpfht2mp",
       "features": [
         {
           "type": "Feature",
@@ -71782,7 +72206,7 @@
     "filename": "TMSB_4-H2_TMSBPF200613021010059H2_20240728_-_1911936.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpw_h4s0fv",
+      "name": "tmpgxfmk36v",
       "features": [
         {
           "type": "Feature",
@@ -71872,7 +72296,7 @@
     "filename": "TMSB_4-32_TMSBPF20061307432_20251201_-_2251394.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpbkcpw8ra",
+      "name": "tmp3rtur0de",
       "features": [
         {
           "type": "Feature",
@@ -71950,7 +72374,7 @@
     "filename": "TMSB_4-H6_TMSBPF200613021010061H6_20240901_-_1911915.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_2p_3roq",
+      "name": "tmpj4s7w3d2",
       "features": [
         {
           "type": "Feature",
@@ -72047,7 +72471,7 @@
       ]
     },
     "operator_name": "Transport Made Simple",
-    "bus_number": "H5",
+    "bus_number": "H6",
     "line_name": "H6",
     "service_code": "PF2006130:21010061"
   },
@@ -72056,7 +72480,7 @@
     "filename": "TMSB_4-38_TMSBPF20061302101005538_20250906_-_1915042.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpmhjml9vr",
+      "name": "tmppmchshpx",
       "features": [
         {
           "type": "Feature",
@@ -72189,7 +72613,7 @@
       ]
     },
     "operator_name": "Transport Made Simple",
-    "bus_number": "38A",
+    "bus_number": "38",
     "line_name": "38",
     "service_code": "PF2006130:21010055"
   },
@@ -72198,7 +72622,7 @@
     "filename": "TMSB_4-4_TMSBPF2006130444_20260105_-_1911898.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp5x9q7so4",
+      "name": "tmp108i3c9k",
       "features": [
         {
           "type": "Feature",
@@ -72336,7 +72760,7 @@
     "filename": "TMSB_4-15_TMSBPF20061302715_20260105_-_2186359.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp666vpcys",
+      "name": "tmpoe8xsadz",
       "features": [
         {
           "type": "Feature",
@@ -72470,7 +72894,7 @@
     "filename": "TMSB_4-60_TMSBPF20061307060_20260105_-_2186090.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp_3b5pfiw",
+      "name": "tmpy86a3il1",
       "features": [
         {
           "type": "Feature",
@@ -72584,7 +73008,7 @@
     "filename": "TMSB_4-45_TMSBPF20061307545_20260205_20260725_2304648.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmp2f1k8fj6",
+      "name": "tmpnhgr6qo2",
       "features": [
         {
           "type": "Feature",
@@ -72778,7 +73202,7 @@
     "filename": "TMSB_4-34_TMSBPF20061302101005734_20260105_-_2116413.xml",
     "geom": {
       "type": "FeatureCollection",
-      "name": "tmpxua9cyq8",
+      "name": "tmpmd71z7hc",
       "features": [
         {
           "type": "Feature",
@@ -72850,5 +73274,1169 @@
     "bus_number": "34",
     "line_name": "34",
     "service_code": "PF2006130:21010057"
+  },
+  {
+    "dataset_id": 16194,
+    "filename": "ARBB_1005_ARBBPF00005086155_20260531_-_2370607.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpmtiuuwb3",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "5",
+            "service_code": "PF0000508:615"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.450477,
+                51.916167
+              ],
+              [
+                -0.455304,
+                51.921688
+              ],
+              [
+                -0.458284,
+                51.921727
+              ],
+              [
+                -0.459469,
+                51.918964
+              ],
+              [
+                -0.45763,
+                51.917475
+              ],
+              [
+                -0.457413,
+                51.912751
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "5",
+            "service_code": "PF0000508:615"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.4158,
+                51.882195
+              ],
+              [
+                -0.41538,
+                51.88018
+              ],
+              [
+                -0.421579,
+                51.886893
+              ],
+              [
+                -0.425353,
+                51.886592
+              ],
+              [
+                -0.43805,
+                51.904304
+              ],
+              [
+                -0.430148,
+                51.913721
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Arriva UK Bus",
+    "bus_number": "5",
+    "line_name": "5",
+    "service_code": "PF0000508:615"
+  },
+  {
+    "dataset_id": 16194,
+    "filename": "ARBB_8X15_ARBBPF0000508618X15_20260531_-_2365239.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpd33bbvuk",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "X15",
+            "service_code": "PF0000508:618"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.826173,
+                51.812428
+              ],
+              [
+                -0.81822,
+                51.816997
+              ],
+              [
+                -0.809737,
+                51.815203
+              ],
+              [
+                -0.80682,
+                51.816351
+              ],
+              [
+                -0.793663,
+                51.81521
+              ],
+              [
+                -0.771962,
+                51.824783
+              ],
+              [
+                -0.772127,
+                51.829206
+              ],
+              [
+                -0.768988,
+                51.830167
+              ],
+              [
+                -0.773894,
+                51.843886
+              ],
+              [
+                -0.768548,
+                51.8531
+              ],
+              [
+                -0.755865,
+                51.869142
+              ],
+              [
+                -0.714936,
+                51.897124
+              ],
+              [
+                -0.706748,
+                51.89886
+              ],
+              [
+                -0.696715,
+                51.904036
+              ],
+              [
+                -0.66571,
+                51.90512
+              ],
+              [
+                -0.65809,
+                51.90261
+              ],
+              [
+                -0.64768,
+                51.90506
+              ],
+              [
+                -0.660898,
+                51.916735
+              ],
+              [
+                -0.655432,
+                51.942981
+              ],
+              [
+                -0.657453,
+                51.945486
+              ],
+              [
+                -0.653933,
+                51.951757
+              ],
+              [
+                -0.713391,
+                51.997459
+              ],
+              [
+                -0.72472,
+                52.00193
+              ],
+              [
+                -0.730493,
+                52.00874
+              ],
+              [
+                -0.732742,
+                52.016811
+              ],
+              [
+                -0.740163,
+                52.022394
+              ],
+              [
+                -0.746815,
+                52.032067
+              ],
+              [
+                -0.754401,
+                52.036077
+              ],
+              [
+                -0.755765,
+                52.042061
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Arriva UK Bus",
+    "bus_number": "X15",
+    "line_name": "X15",
+    "service_code": "PF0000508:618"
+  },
+  {
+    "dataset_id": 16194,
+    "filename": "ARBB_106A_ARBBPF00005086166A_20260531_-_2370615.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpptmj2ubc",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "6A",
+            "service_code": "PF0000508:616"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.4158,
+                51.882195
+              ],
+              [
+                -0.414856,
+                51.880026
+              ],
+              [
+                -0.427043,
+                51.884258
+              ],
+              [
+                -0.43699,
+                51.893779
+              ],
+              [
+                -0.444418,
+                51.897106
+              ],
+              [
+                -0.454783,
+                51.905092
+              ],
+              [
+                -0.46126,
+                51.906552
+              ],
+              [
+                -0.468022,
+                51.910345
+              ],
+              [
+                -0.476289,
+                51.911334
+              ],
+              [
+                -0.476198,
+                51.908464
+              ],
+              [
+                -0.4779,
+                51.907128
+              ],
+              [
+                -0.475656,
+                51.905553
+              ],
+              [
+                -0.471276,
+                51.905712
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "6A",
+            "service_code": "PF0000508:616"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.471276,
+                51.905712
+              ],
+              [
+                -0.47144,
+                51.911136
+              ],
+              [
+                -0.457403,
+                51.9067
+              ],
+              [
+                -0.435931,
+                51.893324
+              ],
+              [
+                -0.425069,
+                51.882623
+              ],
+              [
+                -0.4158,
+                51.882195
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Arriva UK Bus",
+    "bus_number": "6A|6|7",
+    "line_name": "6A",
+    "service_code": "PF0000508:616"
+  },
+  {
+    "dataset_id": 19965,
+    "filename": "RRTR_328_RRTRPF000149321010162328_20250330_-_2202243.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmppikw0zk6",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "328",
+            "service_code": "PF0001493:21010162"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.3961,
+                51.663222
+              ],
+              [
+                -0.396912,
+                51.659465
+              ],
+              [
+                -0.395469,
+                51.657146
+              ],
+              [
+                -0.384939,
+                51.647551
+              ],
+              [
+                -0.399505,
+                51.640068
+              ],
+              [
+                -0.393565,
+                51.636785
+              ],
+              [
+                -0.388802,
+                51.630313
+              ],
+              [
+                -0.405582,
+                51.629741
+              ],
+              [
+                -0.407909,
+                51.628073
+              ],
+              [
+                -0.405228,
+                51.627066
+              ],
+              [
+                -0.388028,
+                51.62809
+              ],
+              [
+                -0.387798,
+                51.626248
+              ],
+              [
+                -0.398494,
+                51.624452
+              ],
+              [
+                -0.397063,
+                51.622445
+              ],
+              [
+                -0.392898,
+                51.621327
+              ],
+              [
+                -0.392973,
+                51.623095
+              ],
+              [
+                -0.386794,
+                51.624593
+              ],
+              [
+                -0.386617,
+                51.620827
+              ],
+              [
+                -0.392591,
+                51.617128
+              ],
+              [
+                -0.405759,
+                51.618935
+              ],
+              [
+                -0.410083,
+                51.615073
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Red Rose Travel",
+    "bus_number": "328",
+    "line_name": "328",
+    "service_code": "PF0001493:21010162"
+  },
+  {
+    "dataset_id": 19965,
+    "filename": "RRTR_21_RRTRPF000149314521_20230717_-_2285665.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmp2wakwa6l",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "21",
+            "service_code": "PF0001493:145"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.708784,
+                52.161992
+              ],
+              [
+                -0.713331,
+                52.156395
+              ],
+              [
+                -0.713542,
+                52.152109
+              ],
+              [
+                -0.71002,
+                52.151099
+              ],
+              [
+                -0.701813,
+                52.152852
+              ],
+              [
+                -0.70633,
+                52.137203
+              ],
+              [
+                -0.705349,
+                52.109536
+              ],
+              [
+                -0.72032,
+                52.087733
+              ],
+              [
+                -0.740244,
+                52.082267
+              ],
+              [
+                -0.754665,
+                52.076414
+              ],
+              [
+                -0.753659,
+                52.070613
+              ],
+              [
+                -0.741696,
+                52.056055
+              ],
+              [
+                -0.738926,
+                52.050307
+              ],
+              [
+                -0.744462,
+                52.048955
+              ],
+              [
+                -0.755492,
+                52.040899
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Red Rose Travel",
+    "bus_number": "21",
+    "line_name": "21",
+    "service_code": "PF0001493:145"
+  },
+  {
+    "dataset_id": 19965,
+    "filename": "RRTR_329_RRTRPF000149321010163329_20250330_-_2290310.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmpmxjnus7a",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "329",
+            "service_code": "PF0001493:21010163"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.397382,
+                51.655173
+              ],
+              [
+                -0.399827,
+                51.656145
+              ],
+              [
+                -0.400766,
+                51.660276
+              ],
+              [
+                -0.397138,
+                51.672959
+              ],
+              [
+                -0.408727,
+                51.679411
+              ],
+              [
+                -0.416529,
+                51.689632
+              ],
+              [
+                -0.408909,
+                51.696516
+              ],
+              [
+                -0.414141,
+                51.70869
+              ],
+              [
+                -0.424584,
+                51.701817
+              ],
+              [
+                -0.424111,
+                51.699599
+              ],
+              [
+                -0.430409,
+                51.698244
+              ],
+              [
+                -0.429789,
+                51.694837
+              ],
+              [
+                -0.426272,
+                51.694862
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "329",
+            "service_code": "PF0001493:21010163"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.426272,
+                51.694862
+              ],
+              [
+                -0.430875,
+                51.696488
+              ],
+              [
+                -0.414073,
+                51.708968
+              ],
+              [
+                -0.408713,
+                51.697161
+              ],
+              [
+                -0.413611,
+                51.694062
+              ],
+              [
+                -0.41626,
+                51.689872
+              ],
+              [
+                -0.408823,
+                51.679565
+              ],
+              [
+                -0.397005,
+                51.673029
+              ],
+              [
+                -0.398685,
+                51.665784
+              ],
+              [
+                -0.3961,
+                51.663222
+              ],
+              [
+                -0.397382,
+                51.655173
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Red Rose Travel",
+    "bus_number": "329",
+    "line_name": "329",
+    "service_code": "PF0001493:21010163"
+  },
+  {
+    "dataset_id": 19965,
+    "filename": "RRTR_357_RRTRPF000149321010160357_20240102_-_2290321.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmp3iu_olun",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "357",
+            "service_code": "PF0001493:21010160"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.279709,
+                51.65334
+              ],
+              [
+                -0.270439,
+                51.657251
+              ],
+              [
+                -0.266175,
+                51.663644
+              ],
+              [
+                -0.266598,
+                51.665827
+              ],
+              [
+                -0.274601,
+                51.662626
+              ],
+              [
+                -0.282204,
+                51.666874
+              ],
+              [
+                -0.28208,
+                51.669004
+              ],
+              [
+                -0.279022,
+                51.670344
+              ],
+              [
+                -0.274543,
+                51.67633
+              ],
+              [
+                -0.27859,
+                51.688609
+              ],
+              [
+                -0.280994,
+                51.691216
+              ],
+              [
+                -0.283429,
+                51.693779
+              ],
+              [
+                -0.290442,
+                51.693494
+              ],
+              [
+                -0.292376,
+                51.695563
+              ],
+              [
+                -0.288331,
+                51.699218
+              ],
+              [
+                -0.294406,
+                51.708524
+              ],
+              [
+                -0.276748,
+                51.715756
+              ],
+              [
+                -0.286131,
+                51.716838
+              ],
+              [
+                -0.285522,
+                51.718402
+              ],
+              [
+                -0.293284,
+                51.720656
+              ],
+              [
+                -0.300954,
+                51.718024
+              ],
+              [
+                -0.308138,
+                51.723361
+              ],
+              [
+                -0.315109,
+                51.722005
+              ],
+              [
+                -0.309132,
+                51.723492
+              ],
+              [
+                -0.305957,
+                51.723599
+              ],
+              [
+                -0.299,
+                51.726889
+              ],
+              [
+                -0.304916,
+                51.732478
+              ],
+              [
+                -0.331054,
+                51.748228
+              ],
+              [
+                -0.326993,
+                51.75031
+              ],
+              [
+                -0.337225,
+                51.751777
+              ],
+              [
+                -0.337193,
+                51.753827
+              ],
+              [
+                -0.304617,
+                51.781866
+              ],
+              [
+                -0.297047,
+                51.799624
+              ],
+              [
+                -0.289028,
+                51.807267
+              ],
+              [
+                -0.288395,
+                51.809803
+              ],
+              [
+                -0.293908,
+                51.812086
+              ],
+              [
+                -0.294323,
+                51.815311
+              ],
+              [
+                -0.303648,
+                51.815797
+              ],
+              [
+                -0.334635,
+                51.822174
+              ],
+              [
+                -0.333923,
+                51.824934
+              ],
+              [
+                -0.336065,
+                51.827859
+              ],
+              [
+                -0.341212,
+                51.82483
+              ],
+              [
+                -0.346954,
+                51.830872
+              ],
+              [
+                -0.354003,
+                51.826628
+              ],
+              [
+                -0.357275,
+                51.817251
+              ],
+              [
+                -0.355967,
+                51.815722
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Red Rose Travel",
+    "bus_number": "304",
+    "line_name": "357",
+    "service_code": "PF0001493:21010160"
+  },
+  {
+    "dataset_id": 19965,
+    "filename": "RRTR_336_RRTRPF000149321010161336_20240102_-_2290311.xml",
+    "geom": {
+      "type": "FeatureCollection",
+      "name": "tmparnd5tgu",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "336",
+            "service_code": "PF0001493:21010161"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.521061,
+                51.667274
+              ],
+              [
+                -0.521902,
+                51.658329
+              ],
+              [
+                -0.518326,
+                51.654498
+              ],
+              [
+                -0.509607,
+                51.660278
+              ],
+              [
+                -0.502396,
+                51.658406
+              ],
+              [
+                -0.478857,
+                51.650289
+              ],
+              [
+                -0.471187,
+                51.640464
+              ],
+              [
+                -0.463297,
+                51.643869
+              ],
+              [
+                -0.44169,
+                51.647005
+              ],
+              [
+                -0.428364,
+                51.651824
+              ],
+              [
+                -0.424305,
+                51.649225
+              ],
+              [
+                -0.421772,
+                51.651604
+              ],
+              [
+                -0.408701,
+                51.649611
+              ],
+              [
+                -0.3985,
+                51.652985
+              ],
+              [
+                -0.397731,
+                51.654297
+              ],
+              [
+                -0.399702,
+                51.655999
+              ],
+              [
+                -0.397083,
+                51.65813
+              ],
+              [
+                -0.3961,
+                51.663222
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "336",
+            "service_code": "PF0001493:21010161"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.424305,
+                51.649225
+              ],
+              [
+                -0.421772,
+                51.651604
+              ],
+              [
+                -0.408701,
+                51.649611
+              ],
+              [
+                -0.3985,
+                51.652985
+              ],
+              [
+                -0.397731,
+                51.654297
+              ],
+              [
+                -0.399702,
+                51.655999
+              ],
+              [
+                -0.395469,
+                51.657146
+              ],
+              [
+                -0.384967,
+                51.66871
+              ],
+              [
+                -0.38841,
+                51.67129
+              ],
+              [
+                -0.385358,
+                51.673343
+              ],
+              [
+                -0.373211,
+                51.666431
+              ],
+              [
+                -0.372092,
+                51.664018
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "336",
+            "service_code": "PF0001493:21010161"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.372092,
+                51.664018
+              ],
+              [
+                -0.378333,
+                51.663931
+              ],
+              [
+                -0.382231,
+                51.670594
+              ],
+              [
+                -0.385634,
+                51.673311
+              ],
+              [
+                -0.388207,
+                51.671323
+              ],
+              [
+                -0.384781,
+                51.668671
+              ],
+              [
+                -0.394521,
+                51.654307
+              ],
+              [
+                -0.39595,
+                51.65518
+              ],
+              [
+                -0.407598,
+                51.648922
+              ],
+              [
+                -0.411015,
+                51.65061
+              ],
+              [
+                -0.424052,
+                51.651697
+              ],
+              [
+                -0.424305,
+                51.649225
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "line_name": "336",
+            "service_code": "PF0001493:21010161"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.3961,
+                51.663222
+              ],
+              [
+                -0.396912,
+                51.659465
+              ],
+              [
+                -0.394521,
+                51.654307
+              ],
+              [
+                -0.399702,
+                51.655999
+              ],
+              [
+                -0.400766,
+                51.660276
+              ],
+              [
+                -0.41655,
+                51.653572
+              ],
+              [
+                -0.46328,
+                51.643536
+              ],
+              [
+                -0.471187,
+                51.640464
+              ],
+              [
+                -0.476181,
+                51.646873
+              ],
+              [
+                -0.482124,
+                51.65115
+              ],
+              [
+                -0.509869,
+                51.660218
+              ],
+              [
+                -0.513096,
+                51.664125
+              ],
+              [
+                -0.521061,
+                51.667274
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "operator_name": "Red Rose Travel",
+    "bus_number": "336",
+    "line_name": "336",
+    "service_code": "PF0001493:21010161"
   }
 ]
